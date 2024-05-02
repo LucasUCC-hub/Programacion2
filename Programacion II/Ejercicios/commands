@@ -1,2 +1,0 @@
-powershell:  g++ .\exercises\TP1\grillo.cpp .\src\mathf.cpp -o .\bin\grillo.exe ; .\bin\grillo.exe
-cmd: g++ .\exercises\TP1\grillo.cpp .\src\mathf.cpp -o .\bin\grillo.exe && start .\bin\grillo.exe
