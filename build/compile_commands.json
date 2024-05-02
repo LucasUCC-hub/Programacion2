@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/workspaces/Programacion2/build",
+  "command": "/usr/bin/g++   -I/workspaces/Programacion2/lib -I/workspaces/Programacion2/lib/mylib/include  -g   -o CMakeFiles/main.dir/main.cpp.o -c /workspaces/Programacion2/main.cpp",
+  "file": "/workspaces/Programacion2/main.cpp"
+},
+{
+  "directory": "/workspaces/Programacion2/build/lib/mylib",
+  "command": "/usr/bin/g++   -I/workspaces/Programacion2/lib/mylib/include  -g   -o CMakeFiles/mylib.dir/src/mymaths.cpp.o -c /workspaces/Programacion2/lib/mylib/src/mymaths.cpp",
+  "file": "/workspaces/Programacion2/lib/mylib/src/mymaths.cpp"
+}
+]

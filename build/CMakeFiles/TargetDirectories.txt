@@ -1,0 +1,8 @@
+/workspaces/Programacion2/build/CMakeFiles/rebuild_cache.dir
+/workspaces/Programacion2/build/CMakeFiles/edit_cache.dir
+/workspaces/Programacion2/build/CMakeFiles/main.dir
+/workspaces/Programacion2/build/lib/CMakeFiles/rebuild_cache.dir
+/workspaces/Programacion2/build/lib/CMakeFiles/edit_cache.dir
+/workspaces/Programacion2/build/lib/mylib/CMakeFiles/edit_cache.dir
+/workspaces/Programacion2/build/lib/mylib/CMakeFiles/rebuild_cache.dir
+/workspaces/Programacion2/build/lib/mylib/CMakeFiles/mylib.dir

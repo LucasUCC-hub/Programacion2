@@ -1,15 +1,8 @@
-# Programacion 2 💻
-Ejercicios de Programacion II en la UCC
+# Programacion 2
+Por Lucas Fabiani
 
-## ¿Que encontraras?
-- Ejercicios
-- Pruebas random
-
-## Contacto
-| Nombre | email | clave |
-|--------|-------|-------|
-| Lucas Fabiani | 2315215@ucc.edu.ar | 2315215 |
-
-### Otra Info
-[Aula virtual](https://presencial.ucc.edu.ar/my/)
-😎
+Para compilacion y ejecucion rapida
+```bash
+./run
+```
+Sino ejecute su correspondiente en **/tool/run.bat**

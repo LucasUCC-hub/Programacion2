@@ -4,7 +4,8 @@
 #include <cmath>
 
 class RNG {
-    static float random(float seed);
+public:
+    static float random();
 };
 
 #endif
