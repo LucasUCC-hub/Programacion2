@@ -124,17 +124,43 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named mylib
+# Target rules for targets named mates
 
 # Build rule for target.
-mylib: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mylib
-.PHONY : mylib
+mates: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mates
+.PHONY : mates
 
 # fast build rule for target.
-mylib/fast:
-	$(MAKE) -f lib/mylib/CMakeFiles/mylib.dir/build.make lib/mylib/CMakeFiles/mylib.dir/build
-.PHONY : mylib/fast
+mates/fast:
+	$(MAKE) -f modules/mates/CMakeFiles/mates.dir/build.make modules/mates/CMakeFiles/mates.dir/build
+.PHONY : mates/fast
+
+#=============================================================================
+# Target rules for targets named test_range
+
+# Build rule for target.
+test_range: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_range
+.PHONY : test_range
+
+# fast build rule for target.
+test_range/fast:
+	$(MAKE) -f samples/CMakeFiles/test_range.dir/build.make samples/CMakeFiles/test_range.dir/build
+.PHONY : test_range/fast
+
+#=============================================================================
+# Target rules for targets named template
+
+# Build rule for target.
+template: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 template
+.PHONY : template
+
+# fast build rule for target.
+template/fast:
+	$(MAKE) -f samples/CMakeFiles/template.dir/build.make samples/CMakeFiles/template.dir/build
+.PHONY : template/fast
 
 main.o: main.cpp.o
 
@@ -172,7 +198,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... main"
-	@echo "... mylib"
+	@echo "... mates"
+	@echo "... test_range"
+	@echo "... template"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

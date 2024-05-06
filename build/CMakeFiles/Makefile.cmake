@@ -30,8 +30,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.16.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeSystem.cmake"
-  "../lib/CMakeLists.txt"
-  "../lib/mylib/CMakeLists.txt"
+  "../modules/CMakeLists.txt"
+  "../modules/mates/CMakeLists.txt"
+  "../samples/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -43,12 +44,15 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "lib/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "lib/mylib/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "modules/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "modules/mates/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "samples/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/main.dir/DependInfo.cmake"
-  "lib/mylib/CMakeFiles/mylib.dir/DependInfo.cmake"
+  "modules/mates/CMakeFiles/mates.dir/DependInfo.cmake"
+  "samples/CMakeFiles/test_range.dir/DependInfo.cmake"
+  "samples/CMakeFiles/template.dir/DependInfo.cmake"
   )

@@ -1,8 +1,12 @@
 /workspaces/Programacion2/build/CMakeFiles/rebuild_cache.dir
 /workspaces/Programacion2/build/CMakeFiles/edit_cache.dir
 /workspaces/Programacion2/build/CMakeFiles/main.dir
-/workspaces/Programacion2/build/lib/CMakeFiles/rebuild_cache.dir
-/workspaces/Programacion2/build/lib/CMakeFiles/edit_cache.dir
-/workspaces/Programacion2/build/lib/mylib/CMakeFiles/edit_cache.dir
-/workspaces/Programacion2/build/lib/mylib/CMakeFiles/rebuild_cache.dir
-/workspaces/Programacion2/build/lib/mylib/CMakeFiles/mylib.dir
+/workspaces/Programacion2/build/modules/CMakeFiles/rebuild_cache.dir
+/workspaces/Programacion2/build/modules/CMakeFiles/edit_cache.dir
+/workspaces/Programacion2/build/modules/mates/CMakeFiles/rebuild_cache.dir
+/workspaces/Programacion2/build/modules/mates/CMakeFiles/edit_cache.dir
+/workspaces/Programacion2/build/modules/mates/CMakeFiles/mates.dir
+/workspaces/Programacion2/build/samples/CMakeFiles/edit_cache.dir
+/workspaces/Programacion2/build/samples/CMakeFiles/rebuild_cache.dir
+/workspaces/Programacion2/build/samples/CMakeFiles/test_range.dir
+/workspaces/Programacion2/build/samples/CMakeFiles/template.dir

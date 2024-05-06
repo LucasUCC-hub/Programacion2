@@ -54,62 +54,85 @@ CMAKE_BINARY_DIR = /workspaces/Programacion2/build
 
 # The main recursive "all" target.
 all: CMakeFiles/main.dir/all
-all: lib/all
+all: modules/all
+all: samples/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: lib/preinstall
+preinstall: modules/preinstall
+preinstall: samples/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/main.dir/clean
-clean: lib/clean
+clean: modules/clean
+clean: samples/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory lib
+# Directory level rules for directory modules
 
 # Recursive "all" directory target.
-lib/all: lib/mylib/all
+modules/all: modules/mates/all
 
-.PHONY : lib/all
+.PHONY : modules/all
 
 # Recursive "preinstall" directory target.
-lib/preinstall: lib/mylib/preinstall
+modules/preinstall: modules/mates/preinstall
 
-.PHONY : lib/preinstall
+.PHONY : modules/preinstall
 
 # Recursive "clean" directory target.
-lib/clean: lib/mylib/clean
+modules/clean: modules/mates/clean
 
-.PHONY : lib/clean
+.PHONY : modules/clean
 
 #=============================================================================
-# Directory level rules for directory lib/mylib
+# Directory level rules for directory modules/mates
 
 # Recursive "all" directory target.
-lib/mylib/all: lib/mylib/CMakeFiles/mylib.dir/all
+modules/mates/all: modules/mates/CMakeFiles/mates.dir/all
 
-.PHONY : lib/mylib/all
+.PHONY : modules/mates/all
 
 # Recursive "preinstall" directory target.
-lib/mylib/preinstall:
+modules/mates/preinstall:
 
-.PHONY : lib/mylib/preinstall
+.PHONY : modules/mates/preinstall
 
 # Recursive "clean" directory target.
-lib/mylib/clean: lib/mylib/CMakeFiles/mylib.dir/clean
+modules/mates/clean: modules/mates/CMakeFiles/mates.dir/clean
 
-.PHONY : lib/mylib/clean
+.PHONY : modules/mates/clean
+
+#=============================================================================
+# Directory level rules for directory samples
+
+# Recursive "all" directory target.
+samples/all: samples/CMakeFiles/test_range.dir/all
+samples/all: samples/CMakeFiles/template.dir/all
+
+.PHONY : samples/all
+
+# Recursive "preinstall" directory target.
+samples/preinstall:
+
+.PHONY : samples/preinstall
+
+# Recursive "clean" directory target.
+samples/clean: samples/CMakeFiles/test_range.dir/clean
+samples/clean: samples/CMakeFiles/template.dir/clean
+
+.PHONY : samples/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/main.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all: lib/mylib/CMakeFiles/mylib.dir/all
+CMakeFiles/main.dir/all: modules/mates/CMakeFiles/mates.dir/all
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/Programacion2/build/CMakeFiles --progress-num=1,2 "Built target main"
@@ -117,7 +140,7 @@ CMakeFiles/main.dir/all: lib/mylib/CMakeFiles/mylib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Programacion2/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Programacion2/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Programacion2/build/CMakeFiles 0
 .PHONY : CMakeFiles/main.dir/rule
@@ -133,31 +156,85 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 #=============================================================================
-# Target rules for target lib/mylib/CMakeFiles/mylib.dir
+# Target rules for target modules/mates/CMakeFiles/mates.dir
 
 # All Build rule for target.
-lib/mylib/CMakeFiles/mylib.dir/all:
-	$(MAKE) -f lib/mylib/CMakeFiles/mylib.dir/build.make lib/mylib/CMakeFiles/mylib.dir/depend
-	$(MAKE) -f lib/mylib/CMakeFiles/mylib.dir/build.make lib/mylib/CMakeFiles/mylib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/Programacion2/build/CMakeFiles --progress-num=3,4 "Built target mylib"
-.PHONY : lib/mylib/CMakeFiles/mylib.dir/all
+modules/mates/CMakeFiles/mates.dir/all:
+	$(MAKE) -f modules/mates/CMakeFiles/mates.dir/build.make modules/mates/CMakeFiles/mates.dir/depend
+	$(MAKE) -f modules/mates/CMakeFiles/mates.dir/build.make modules/mates/CMakeFiles/mates.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/Programacion2/build/CMakeFiles --progress-num=3,4,5 "Built target mates"
+.PHONY : modules/mates/CMakeFiles/mates.dir/all
 
 # Build rule for subdir invocation for target.
-lib/mylib/CMakeFiles/mylib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Programacion2/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 lib/mylib/CMakeFiles/mylib.dir/all
+modules/mates/CMakeFiles/mates.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Programacion2/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 modules/mates/CMakeFiles/mates.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Programacion2/build/CMakeFiles 0
-.PHONY : lib/mylib/CMakeFiles/mylib.dir/rule
+.PHONY : modules/mates/CMakeFiles/mates.dir/rule
 
 # Convenience name for target.
-mylib: lib/mylib/CMakeFiles/mylib.dir/rule
+mates: modules/mates/CMakeFiles/mates.dir/rule
 
-.PHONY : mylib
+.PHONY : mates
 
 # clean rule for target.
-lib/mylib/CMakeFiles/mylib.dir/clean:
-	$(MAKE) -f lib/mylib/CMakeFiles/mylib.dir/build.make lib/mylib/CMakeFiles/mylib.dir/clean
-.PHONY : lib/mylib/CMakeFiles/mylib.dir/clean
+modules/mates/CMakeFiles/mates.dir/clean:
+	$(MAKE) -f modules/mates/CMakeFiles/mates.dir/build.make modules/mates/CMakeFiles/mates.dir/clean
+.PHONY : modules/mates/CMakeFiles/mates.dir/clean
+
+#=============================================================================
+# Target rules for target samples/CMakeFiles/test_range.dir
+
+# All Build rule for target.
+samples/CMakeFiles/test_range.dir/all: modules/mates/CMakeFiles/mates.dir/all
+	$(MAKE) -f samples/CMakeFiles/test_range.dir/build.make samples/CMakeFiles/test_range.dir/depend
+	$(MAKE) -f samples/CMakeFiles/test_range.dir/build.make samples/CMakeFiles/test_range.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/Programacion2/build/CMakeFiles --progress-num=8,9 "Built target test_range"
+.PHONY : samples/CMakeFiles/test_range.dir/all
+
+# Build rule for subdir invocation for target.
+samples/CMakeFiles/test_range.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Programacion2/build/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 samples/CMakeFiles/test_range.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Programacion2/build/CMakeFiles 0
+.PHONY : samples/CMakeFiles/test_range.dir/rule
+
+# Convenience name for target.
+test_range: samples/CMakeFiles/test_range.dir/rule
+
+.PHONY : test_range
+
+# clean rule for target.
+samples/CMakeFiles/test_range.dir/clean:
+	$(MAKE) -f samples/CMakeFiles/test_range.dir/build.make samples/CMakeFiles/test_range.dir/clean
+.PHONY : samples/CMakeFiles/test_range.dir/clean
+
+#=============================================================================
+# Target rules for target samples/CMakeFiles/template.dir
+
+# All Build rule for target.
+samples/CMakeFiles/template.dir/all: modules/mates/CMakeFiles/mates.dir/all
+	$(MAKE) -f samples/CMakeFiles/template.dir/build.make samples/CMakeFiles/template.dir/depend
+	$(MAKE) -f samples/CMakeFiles/template.dir/build.make samples/CMakeFiles/template.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/Programacion2/build/CMakeFiles --progress-num=6,7 "Built target template"
+.PHONY : samples/CMakeFiles/template.dir/all
+
+# Build rule for subdir invocation for target.
+samples/CMakeFiles/template.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Programacion2/build/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 samples/CMakeFiles/template.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Programacion2/build/CMakeFiles 0
+.PHONY : samples/CMakeFiles/template.dir/rule
+
+# Convenience name for target.
+template: samples/CMakeFiles/template.dir/rule
+
+.PHONY : template
+
+# clean rule for target.
+samples/CMakeFiles/template.dir/clean:
+	$(MAKE) -f samples/CMakeFiles/template.dir/build.make samples/CMakeFiles/template.dir/clean
+.PHONY : samples/CMakeFiles/template.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -rdynamic CMakeFiles/template.dir/template.cpp.o  -o template  ../modules/mates/build/libmates.a 

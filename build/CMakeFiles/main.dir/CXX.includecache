@@ -6,13 +6,9 @@
 
 #IncludeRegexTransform: 
 
-../lib/mylib/include/mylib/mymaths.h
-cmath
--
-
 /workspaces/Programacion2/main.cpp
-mylib/mymaths.h
-/workspaces/Programacion2/mylib/mymaths.h
+mates/range.h
+/workspaces/Programacion2/mates/range.h
 iostream
 -
 

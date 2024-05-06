@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Verificar que se haya proporcionado un nombre de archivo como argumento
+if [ $# -ne 1 ]; then
+    echo "Uso: $0 <nombre_archivo.cpp>"
+    exit 1
+fi
+
+# Obtener el nombre del archivo de entrada
+archivo_cpp="$1"
+nombre_ejecutable=$(basename "$archivo_cpp" .cpp)
+
+# Compilar el archivo cpp y generar el ejecutable
+g++ -o "/tmp/$nombre_ejecutable" "$archivo_cpp"
+
+# Verificar si la compilación tuvo éxito
+if [ $? -eq 0 ]; then
+    echo "Compilación exitosa. Ejecutando el programa..."
+    # Cambiar al directorio temporal y ejecutar el programa
+    cd /tmp || exit 1
+    "./$nombre_ejecutable"
+else
+    echo "Error: La compilación falló."
+fi

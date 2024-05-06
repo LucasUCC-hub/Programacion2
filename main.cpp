@@ -1,8 +1,10 @@
-#include "mylib/mymaths.h"
+#include "range.h"
 #include <iostream>
 
+using namespace std;
+
 int main() {
-    int h;
-    std::cout << "Random: " << RNG::random();
-    std::cin >> h;
+    for(int i : Range(1,20)) {
+        cout << i;
+    }
 }

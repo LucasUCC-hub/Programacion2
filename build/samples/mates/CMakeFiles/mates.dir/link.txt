@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/mates/build/libmates.a  CMakeFiles/mates.dir/src/range.cpp.o CMakeFiles/mates.dir/src/utils.cpp.o
+/usr/bin/ranlib ../../../lib/mates/build/libmates.a

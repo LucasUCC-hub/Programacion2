@@ -1,12 +1,27 @@
 [
 {
   "directory": "/workspaces/Programacion2/build",
-  "command": "/usr/bin/g++   -I/workspaces/Programacion2/lib -I/workspaces/Programacion2/lib/mylib/include  -g   -o CMakeFiles/main.dir/main.cpp.o -c /workspaces/Programacion2/main.cpp",
+  "command": "/usr/bin/g++   -I/workspaces/Programacion2/modules/mates/include  -g   -o CMakeFiles/main.dir/main.cpp.o -c /workspaces/Programacion2/main.cpp",
   "file": "/workspaces/Programacion2/main.cpp"
 },
 {
-  "directory": "/workspaces/Programacion2/build/lib/mylib",
-  "command": "/usr/bin/g++   -I/workspaces/Programacion2/lib/mylib/include  -g   -o CMakeFiles/mylib.dir/src/mymaths.cpp.o -c /workspaces/Programacion2/lib/mylib/src/mymaths.cpp",
-  "file": "/workspaces/Programacion2/lib/mylib/src/mymaths.cpp"
+  "directory": "/workspaces/Programacion2/build/modules/mates",
+  "command": "/usr/bin/g++   -I/workspaces/Programacion2/modules/mates/include  -g   -o CMakeFiles/mates.dir/src/range.cpp.o -c /workspaces/Programacion2/modules/mates/src/range.cpp",
+  "file": "/workspaces/Programacion2/modules/mates/src/range.cpp"
+},
+{
+  "directory": "/workspaces/Programacion2/build/modules/mates",
+  "command": "/usr/bin/g++   -I/workspaces/Programacion2/modules/mates/include  -g   -o CMakeFiles/mates.dir/src/utils.cpp.o -c /workspaces/Programacion2/modules/mates/src/utils.cpp",
+  "file": "/workspaces/Programacion2/modules/mates/src/utils.cpp"
+},
+{
+  "directory": "/workspaces/Programacion2/build/samples",
+  "command": "/usr/bin/g++   -I/workspaces/Programacion2/lib/mates/include -I/workspaces/Programacion2/modules/mates/include  -g   -o CMakeFiles/test_range.dir/test_range.cpp.o -c /workspaces/Programacion2/samples/test_range.cpp",
+  "file": "/workspaces/Programacion2/samples/test_range.cpp"
+},
+{
+  "directory": "/workspaces/Programacion2/build/samples",
+  "command": "/usr/bin/g++   -I/workspaces/Programacion2/modules/mates/include  -g   -o CMakeFiles/template.dir/template.cpp.o -c /workspaces/Programacion2/samples/template.cpp",
+  "file": "/workspaces/Programacion2/samples/template.cpp"
 }
 ]
