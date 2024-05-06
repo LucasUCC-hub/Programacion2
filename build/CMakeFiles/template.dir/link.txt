@@ -1,1 +1,0 @@
-/usr/bin/g++  -g   CMakeFiles/template.dir/samples/template.cpp.o  -o template  ../lib/mates/build/libmates.a 

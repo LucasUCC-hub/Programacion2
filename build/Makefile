@@ -133,35 +133,35 @@ mates: cmake_check_build_system
 
 # fast build rule for target.
 mates/fast:
-	$(MAKE) -f modules/mates/CMakeFiles/mates.dir/build.make modules/mates/CMakeFiles/mates.dir/build
+	$(MAKE) -f custom-libs/mates/CMakeFiles/mates.dir/build.make custom-libs/mates/CMakeFiles/mates.dir/build
 .PHONY : mates/fast
 
-samples/TP1/test_range.o: samples/TP1/test_range.cpp.o
+main.o: main.cpp.o
 
-.PHONY : samples/TP1/test_range.o
+.PHONY : main.o
 
 # target to build an object file
-samples/TP1/test_range.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/samples/TP1/test_range.cpp.o
-.PHONY : samples/TP1/test_range.cpp.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-samples/TP1/test_range.i: samples/TP1/test_range.cpp.i
+main.i: main.cpp.i
 
-.PHONY : samples/TP1/test_range.i
+.PHONY : main.i
 
 # target to preprocess a source file
-samples/TP1/test_range.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/samples/TP1/test_range.cpp.i
-.PHONY : samples/TP1/test_range.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-samples/TP1/test_range.s: samples/TP1/test_range.cpp.s
+main.s: main.cpp.s
 
-.PHONY : samples/TP1/test_range.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-samples/TP1/test_range.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/samples/TP1/test_range.cpp.s
-.PHONY : samples/TP1/test_range.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -173,9 +173,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... main"
 	@echo "... mates"
-	@echo "... samples/TP1/test_range.o"
-	@echo "... samples/TP1/test_range.i"
-	@echo "... samples/TP1/test_range.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

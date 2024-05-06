@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cache_file="cache/last-test-name"
+lastfilename_file="aux-data/last-test-name"
 
 # Verificar si se proporcionó un nombre de archivo como argumento
 if [ $# -eq 0 ]; then
@@ -15,8 +15,8 @@ if [ ! -f "$1" ]; then
 fi
 
 # Verificar si existe un archivo de caché
-if [ -f "$cache_file" ]; then
-    filename=$(cat "$cache_file")
+if [ -f "$lastfilename_file" ]; then
+    filename=$(cat "$lastfilename_file")
     if [ -f "$filename" ]; then
         # Cambiar el nombre del archivo ejecutable en CMakeLists.txt
         sed -i "s#$filename#$1#g" CMakeLists.txt

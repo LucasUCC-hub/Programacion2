@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -rdynamic CMakeFiles/u1e02.dir/TP1/u1e02.cpp.o  -o u1e02  ../modules/mates/build/libmates.a 

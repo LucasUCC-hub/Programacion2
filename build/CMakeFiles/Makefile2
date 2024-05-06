@@ -54,62 +54,62 @@ CMAKE_BINARY_DIR = /workspaces/Programacion2/build
 
 # The main recursive "all" target.
 all: CMakeFiles/main.dir/all
-all: modules/all
+all: custom-libs/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: modules/preinstall
+preinstall: custom-libs/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/main.dir/clean
-clean: modules/clean
+clean: custom-libs/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory modules
+# Directory level rules for directory custom-libs
 
 # Recursive "all" directory target.
-modules/all: modules/mates/all
+custom-libs/all: custom-libs/mates/all
 
-.PHONY : modules/all
+.PHONY : custom-libs/all
 
 # Recursive "preinstall" directory target.
-modules/preinstall: modules/mates/preinstall
+custom-libs/preinstall: custom-libs/mates/preinstall
 
-.PHONY : modules/preinstall
+.PHONY : custom-libs/preinstall
 
 # Recursive "clean" directory target.
-modules/clean: modules/mates/clean
+custom-libs/clean: custom-libs/mates/clean
 
-.PHONY : modules/clean
+.PHONY : custom-libs/clean
 
 #=============================================================================
-# Directory level rules for directory modules/mates
+# Directory level rules for directory custom-libs/mates
 
 # Recursive "all" directory target.
-modules/mates/all: modules/mates/CMakeFiles/mates.dir/all
+custom-libs/mates/all: custom-libs/mates/CMakeFiles/mates.dir/all
 
-.PHONY : modules/mates/all
+.PHONY : custom-libs/mates/all
 
 # Recursive "preinstall" directory target.
-modules/mates/preinstall:
+custom-libs/mates/preinstall:
 
-.PHONY : modules/mates/preinstall
+.PHONY : custom-libs/mates/preinstall
 
 # Recursive "clean" directory target.
-modules/mates/clean: modules/mates/CMakeFiles/mates.dir/clean
+custom-libs/mates/clean: custom-libs/mates/CMakeFiles/mates.dir/clean
 
-.PHONY : modules/mates/clean
+.PHONY : custom-libs/mates/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/main.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all: modules/mates/CMakeFiles/mates.dir/all
+CMakeFiles/main.dir/all: custom-libs/mates/CMakeFiles/mates.dir/all
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/Programacion2/build/CMakeFiles --progress-num=1,2 "Built target main"
@@ -133,31 +133,31 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 #=============================================================================
-# Target rules for target modules/mates/CMakeFiles/mates.dir
+# Target rules for target custom-libs/mates/CMakeFiles/mates.dir
 
 # All Build rule for target.
-modules/mates/CMakeFiles/mates.dir/all:
-	$(MAKE) -f modules/mates/CMakeFiles/mates.dir/build.make modules/mates/CMakeFiles/mates.dir/depend
-	$(MAKE) -f modules/mates/CMakeFiles/mates.dir/build.make modules/mates/CMakeFiles/mates.dir/build
+custom-libs/mates/CMakeFiles/mates.dir/all:
+	$(MAKE) -f custom-libs/mates/CMakeFiles/mates.dir/build.make custom-libs/mates/CMakeFiles/mates.dir/depend
+	$(MAKE) -f custom-libs/mates/CMakeFiles/mates.dir/build.make custom-libs/mates/CMakeFiles/mates.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/Programacion2/build/CMakeFiles --progress-num=3,4,5 "Built target mates"
-.PHONY : modules/mates/CMakeFiles/mates.dir/all
+.PHONY : custom-libs/mates/CMakeFiles/mates.dir/all
 
 # Build rule for subdir invocation for target.
-modules/mates/CMakeFiles/mates.dir/rule: cmake_check_build_system
+custom-libs/mates/CMakeFiles/mates.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Programacion2/build/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 modules/mates/CMakeFiles/mates.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 custom-libs/mates/CMakeFiles/mates.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Programacion2/build/CMakeFiles 0
-.PHONY : modules/mates/CMakeFiles/mates.dir/rule
+.PHONY : custom-libs/mates/CMakeFiles/mates.dir/rule
 
 # Convenience name for target.
-mates: modules/mates/CMakeFiles/mates.dir/rule
+mates: custom-libs/mates/CMakeFiles/mates.dir/rule
 
 .PHONY : mates
 
 # clean rule for target.
-modules/mates/CMakeFiles/mates.dir/clean:
-	$(MAKE) -f modules/mates/CMakeFiles/mates.dir/build.make modules/mates/CMakeFiles/mates.dir/clean
-.PHONY : modules/mates/CMakeFiles/mates.dir/clean
+custom-libs/mates/CMakeFiles/mates.dir/clean:
+	$(MAKE) -f custom-libs/mates/CMakeFiles/mates.dir/build.make custom-libs/mates/CMakeFiles/mates.dir/clean
+.PHONY : custom-libs/mates/CMakeFiles/mates.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

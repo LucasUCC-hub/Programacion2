@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-../modules/mates/include/range.h
+../custom-libs/mates/include/range.h
 
-/workspaces/Programacion2/samples/TP1/test_range.cpp
+/workspaces/Programacion2/main.cpp
 range.h
-/workspaces/Programacion2/samples/TP1/range.h
+/workspaces/Programacion2/range.h
 iostream
 -
 
