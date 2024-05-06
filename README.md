@@ -1,21 +1,15 @@
 # Programacion 2
 Por Lucas Fabiani
 
-## Ejecutar proyecto
-Para ejecutar el proyecto desde main.cpp incluyendo todas las librerias
-```bash
-./run
-```
-Sino ejecute su correspondiente en **/tool/run.bat**
+## Ejecutar samples
 
-
-## Herramientas
 - Configurar compilacion rapida de ejecutables .cpp
 ```bash
-alias quick=./tools/quick
+alias test=./test
 ```
-Despues
+Ejecuta el archivo dado como principal con todas las librerias
 ```bash
-quick ./ruta_del_archivo/archivo.cpp
+test ./ruta_del_archivo/archivo.cpp
+# test ./main.cpp para ejecutar el principal
 ```
-
+**chache/last-test-name se utiliza para almacenar la ruta del ultimo archivo ejecutado y poder reemplazarlo cuando se ejecute otro

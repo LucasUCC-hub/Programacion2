@@ -32,7 +32,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.16.3/CMakeSystem.cmake"
   "../modules/CMakeLists.txt"
   "../modules/mates/CMakeLists.txt"
-  "../samples/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -46,28 +45,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "modules/CMakeFiles/CMakeDirectoryInformation.cmake"
   "modules/mates/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "samples/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/main.dir/DependInfo.cmake"
   "modules/mates/CMakeFiles/mates.dir/DependInfo.cmake"
-  "samples/CMakeFiles/u1e16.dir/DependInfo.cmake"
-  "samples/CMakeFiles/u1e13.dir/DependInfo.cmake"
-  "samples/CMakeFiles/u1e01.dir/DependInfo.cmake"
-  "samples/CMakeFiles/u1e10.dir/DependInfo.cmake"
-  "samples/CMakeFiles/u1e02.dir/DependInfo.cmake"
-  "samples/CMakeFiles/u1e04.dir/DependInfo.cmake"
-  "samples/CMakeFiles/u1e03.dir/DependInfo.cmake"
-  "samples/CMakeFiles/u1e05.dir/DependInfo.cmake"
-  "samples/CMakeFiles/u1e06.dir/DependInfo.cmake"
-  "samples/CMakeFiles/u1e15.dir/DependInfo.cmake"
-  "samples/CMakeFiles/u1e07.dir/DependInfo.cmake"
-  "samples/CMakeFiles/u1e12.dir/DependInfo.cmake"
-  "samples/CMakeFiles/u1e14.dir/DependInfo.cmake"
-  "samples/CMakeFiles/test_range.dir/DependInfo.cmake"
-  "samples/CMakeFiles/u1e11.dir/DependInfo.cmake"
-  "samples/CMakeFiles/u1e08.dir/DependInfo.cmake"
-  "samples/CMakeFiles/u1e09.dir/DependInfo.cmake"
   )

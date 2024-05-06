@@ -136,253 +136,32 @@ mates/fast:
 	$(MAKE) -f modules/mates/CMakeFiles/mates.dir/build.make modules/mates/CMakeFiles/mates.dir/build
 .PHONY : mates/fast
 
-#=============================================================================
-# Target rules for targets named u1e16
+samples/TP1/test_range.o: samples/TP1/test_range.cpp.o
 
-# Build rule for target.
-u1e16: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 u1e16
-.PHONY : u1e16
-
-# fast build rule for target.
-u1e16/fast:
-	$(MAKE) -f samples/CMakeFiles/u1e16.dir/build.make samples/CMakeFiles/u1e16.dir/build
-.PHONY : u1e16/fast
-
-#=============================================================================
-# Target rules for targets named u1e13
-
-# Build rule for target.
-u1e13: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 u1e13
-.PHONY : u1e13
-
-# fast build rule for target.
-u1e13/fast:
-	$(MAKE) -f samples/CMakeFiles/u1e13.dir/build.make samples/CMakeFiles/u1e13.dir/build
-.PHONY : u1e13/fast
-
-#=============================================================================
-# Target rules for targets named u1e01
-
-# Build rule for target.
-u1e01: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 u1e01
-.PHONY : u1e01
-
-# fast build rule for target.
-u1e01/fast:
-	$(MAKE) -f samples/CMakeFiles/u1e01.dir/build.make samples/CMakeFiles/u1e01.dir/build
-.PHONY : u1e01/fast
-
-#=============================================================================
-# Target rules for targets named u1e10
-
-# Build rule for target.
-u1e10: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 u1e10
-.PHONY : u1e10
-
-# fast build rule for target.
-u1e10/fast:
-	$(MAKE) -f samples/CMakeFiles/u1e10.dir/build.make samples/CMakeFiles/u1e10.dir/build
-.PHONY : u1e10/fast
-
-#=============================================================================
-# Target rules for targets named u1e02
-
-# Build rule for target.
-u1e02: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 u1e02
-.PHONY : u1e02
-
-# fast build rule for target.
-u1e02/fast:
-	$(MAKE) -f samples/CMakeFiles/u1e02.dir/build.make samples/CMakeFiles/u1e02.dir/build
-.PHONY : u1e02/fast
-
-#=============================================================================
-# Target rules for targets named u1e04
-
-# Build rule for target.
-u1e04: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 u1e04
-.PHONY : u1e04
-
-# fast build rule for target.
-u1e04/fast:
-	$(MAKE) -f samples/CMakeFiles/u1e04.dir/build.make samples/CMakeFiles/u1e04.dir/build
-.PHONY : u1e04/fast
-
-#=============================================================================
-# Target rules for targets named u1e03
-
-# Build rule for target.
-u1e03: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 u1e03
-.PHONY : u1e03
-
-# fast build rule for target.
-u1e03/fast:
-	$(MAKE) -f samples/CMakeFiles/u1e03.dir/build.make samples/CMakeFiles/u1e03.dir/build
-.PHONY : u1e03/fast
-
-#=============================================================================
-# Target rules for targets named u1e05
-
-# Build rule for target.
-u1e05: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 u1e05
-.PHONY : u1e05
-
-# fast build rule for target.
-u1e05/fast:
-	$(MAKE) -f samples/CMakeFiles/u1e05.dir/build.make samples/CMakeFiles/u1e05.dir/build
-.PHONY : u1e05/fast
-
-#=============================================================================
-# Target rules for targets named u1e06
-
-# Build rule for target.
-u1e06: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 u1e06
-.PHONY : u1e06
-
-# fast build rule for target.
-u1e06/fast:
-	$(MAKE) -f samples/CMakeFiles/u1e06.dir/build.make samples/CMakeFiles/u1e06.dir/build
-.PHONY : u1e06/fast
-
-#=============================================================================
-# Target rules for targets named u1e15
-
-# Build rule for target.
-u1e15: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 u1e15
-.PHONY : u1e15
-
-# fast build rule for target.
-u1e15/fast:
-	$(MAKE) -f samples/CMakeFiles/u1e15.dir/build.make samples/CMakeFiles/u1e15.dir/build
-.PHONY : u1e15/fast
-
-#=============================================================================
-# Target rules for targets named u1e07
-
-# Build rule for target.
-u1e07: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 u1e07
-.PHONY : u1e07
-
-# fast build rule for target.
-u1e07/fast:
-	$(MAKE) -f samples/CMakeFiles/u1e07.dir/build.make samples/CMakeFiles/u1e07.dir/build
-.PHONY : u1e07/fast
-
-#=============================================================================
-# Target rules for targets named u1e12
-
-# Build rule for target.
-u1e12: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 u1e12
-.PHONY : u1e12
-
-# fast build rule for target.
-u1e12/fast:
-	$(MAKE) -f samples/CMakeFiles/u1e12.dir/build.make samples/CMakeFiles/u1e12.dir/build
-.PHONY : u1e12/fast
-
-#=============================================================================
-# Target rules for targets named u1e14
-
-# Build rule for target.
-u1e14: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 u1e14
-.PHONY : u1e14
-
-# fast build rule for target.
-u1e14/fast:
-	$(MAKE) -f samples/CMakeFiles/u1e14.dir/build.make samples/CMakeFiles/u1e14.dir/build
-.PHONY : u1e14/fast
-
-#=============================================================================
-# Target rules for targets named test_range
-
-# Build rule for target.
-test_range: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test_range
-.PHONY : test_range
-
-# fast build rule for target.
-test_range/fast:
-	$(MAKE) -f samples/CMakeFiles/test_range.dir/build.make samples/CMakeFiles/test_range.dir/build
-.PHONY : test_range/fast
-
-#=============================================================================
-# Target rules for targets named u1e11
-
-# Build rule for target.
-u1e11: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 u1e11
-.PHONY : u1e11
-
-# fast build rule for target.
-u1e11/fast:
-	$(MAKE) -f samples/CMakeFiles/u1e11.dir/build.make samples/CMakeFiles/u1e11.dir/build
-.PHONY : u1e11/fast
-
-#=============================================================================
-# Target rules for targets named u1e08
-
-# Build rule for target.
-u1e08: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 u1e08
-.PHONY : u1e08
-
-# fast build rule for target.
-u1e08/fast:
-	$(MAKE) -f samples/CMakeFiles/u1e08.dir/build.make samples/CMakeFiles/u1e08.dir/build
-.PHONY : u1e08/fast
-
-#=============================================================================
-# Target rules for targets named u1e09
-
-# Build rule for target.
-u1e09: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 u1e09
-.PHONY : u1e09
-
-# fast build rule for target.
-u1e09/fast:
-	$(MAKE) -f samples/CMakeFiles/u1e09.dir/build.make samples/CMakeFiles/u1e09.dir/build
-.PHONY : u1e09/fast
-
-main.o: main.cpp.o
-
-.PHONY : main.o
+.PHONY : samples/TP1/test_range.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
-.PHONY : main.cpp.o
+samples/TP1/test_range.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/samples/TP1/test_range.cpp.o
+.PHONY : samples/TP1/test_range.cpp.o
 
-main.i: main.cpp.i
+samples/TP1/test_range.i: samples/TP1/test_range.cpp.i
 
-.PHONY : main.i
+.PHONY : samples/TP1/test_range.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
-.PHONY : main.cpp.i
+samples/TP1/test_range.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/samples/TP1/test_range.cpp.i
+.PHONY : samples/TP1/test_range.cpp.i
 
-main.s: main.cpp.s
+samples/TP1/test_range.s: samples/TP1/test_range.cpp.s
 
-.PHONY : main.s
+.PHONY : samples/TP1/test_range.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
-.PHONY : main.cpp.s
+samples/TP1/test_range.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/samples/TP1/test_range.cpp.s
+.PHONY : samples/TP1/test_range.cpp.s
 
 # Help Target
 help:
@@ -394,26 +173,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... main"
 	@echo "... mates"
-	@echo "... u1e16"
-	@echo "... u1e13"
-	@echo "... u1e01"
-	@echo "... u1e10"
-	@echo "... u1e02"
-	@echo "... u1e04"
-	@echo "... u1e03"
-	@echo "... u1e05"
-	@echo "... u1e06"
-	@echo "... u1e15"
-	@echo "... u1e07"
-	@echo "... u1e12"
-	@echo "... u1e14"
-	@echo "... test_range"
-	@echo "... u1e11"
-	@echo "... u1e08"
-	@echo "... u1e09"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... samples/TP1/test_range.o"
+	@echo "... samples/TP1/test_range.i"
+	@echo "... samples/TP1/test_range.s"
 .PHONY : help
 
 

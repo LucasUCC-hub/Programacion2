@@ -1,0 +1,46 @@
+#!/bin/bash
+
+cache_file="cache/last-test-name"
+
+# Verificar si se proporcionó un nombre de archivo como argumento
+if [ $# -eq 0 ]; then
+    echo "Uso: $0 <nombre_del_archivo>"
+    exit 1
+fi
+
+# Verificar si el archivo dado existe
+if [ ! -f "$1" ]; then
+    echo "El archivo $1 no existe."
+    exit 1
+fi
+
+# Verificar si existe un archivo de caché
+if [ -f "$cache_file" ]; then
+    filename=$(cat "$cache_file")
+    if [ -f "$filename" ]; then
+        # Cambiar el nombre del archivo ejecutable en CMakeLists.txt
+        sed -i "s#$filename#$1#g" CMakeLists.txt
+        echo "Se ha cambiado el archivo ejecutable de CMake a $filename."
+
+        # Compila con cmake y lo ejecuta
+        echo Ejecutando CMake...
+        cmake -B build
+        cd build
+
+        echo Compilando con Make...
+        make
+
+        echo Ejecutando el programa...
+
+        echo
+        ./main
+        echo
+
+        cd ..
+        exit 0
+    else
+        echo "El archivo $filename guardado en el caché ya no existe."
+    fi
+fi
+
+echo "No se encontró un archivo válido en el caché."

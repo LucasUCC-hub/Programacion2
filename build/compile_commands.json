@@ -1,8 +1,8 @@
 [
 {
   "directory": "/workspaces/Programacion2/build",
-  "command": "/usr/bin/g++   -I/workspaces/Programacion2/modules/mates/include  -g   -o CMakeFiles/main.dir/main.cpp.o -c /workspaces/Programacion2/main.cpp",
-  "file": "/workspaces/Programacion2/main.cpp"
+  "command": "/usr/bin/g++   -I/workspaces/Programacion2/modules/mates/include  -g   -o CMakeFiles/main.dir/samples/TP1/test_range.cpp.o -c /workspaces/Programacion2/samples/TP1/test_range.cpp",
+  "file": "/workspaces/Programacion2/samples/TP1/test_range.cpp"
 },
 {
   "directory": "/workspaces/Programacion2/build/modules/mates",
@@ -13,90 +13,5 @@
   "directory": "/workspaces/Programacion2/build/modules/mates",
   "command": "/usr/bin/g++   -I/workspaces/Programacion2/modules/mates/include  -g   -o CMakeFiles/mates.dir/src/utils.cpp.o -c /workspaces/Programacion2/modules/mates/src/utils.cpp",
   "file": "/workspaces/Programacion2/modules/mates/src/utils.cpp"
-},
-{
-  "directory": "/workspaces/Programacion2/build/samples",
-  "command": "/usr/bin/g++   -I/workspaces/Programacion2/modules/mates/include  -g   -o CMakeFiles/u1e16.dir/TP1/u1e16.cpp.o -c /workspaces/Programacion2/samples/TP1/u1e16.cpp",
-  "file": "/workspaces/Programacion2/samples/TP1/u1e16.cpp"
-},
-{
-  "directory": "/workspaces/Programacion2/build/samples",
-  "command": "/usr/bin/g++   -I/workspaces/Programacion2/modules/mates/include  -g   -o CMakeFiles/u1e13.dir/TP1/u1e13.cpp.o -c /workspaces/Programacion2/samples/TP1/u1e13.cpp",
-  "file": "/workspaces/Programacion2/samples/TP1/u1e13.cpp"
-},
-{
-  "directory": "/workspaces/Programacion2/build/samples",
-  "command": "/usr/bin/g++   -I/workspaces/Programacion2/modules/mates/include  -g   -o CMakeFiles/u1e01.dir/TP1/u1e01.cpp.o -c /workspaces/Programacion2/samples/TP1/u1e01.cpp",
-  "file": "/workspaces/Programacion2/samples/TP1/u1e01.cpp"
-},
-{
-  "directory": "/workspaces/Programacion2/build/samples",
-  "command": "/usr/bin/g++   -I/workspaces/Programacion2/modules/mates/include  -g   -o CMakeFiles/u1e10.dir/TP1/u1e10.cpp.o -c /workspaces/Programacion2/samples/TP1/u1e10.cpp",
-  "file": "/workspaces/Programacion2/samples/TP1/u1e10.cpp"
-},
-{
-  "directory": "/workspaces/Programacion2/build/samples",
-  "command": "/usr/bin/g++   -I/workspaces/Programacion2/modules/mates/include  -g   -o CMakeFiles/u1e02.dir/TP1/u1e02.cpp.o -c /workspaces/Programacion2/samples/TP1/u1e02.cpp",
-  "file": "/workspaces/Programacion2/samples/TP1/u1e02.cpp"
-},
-{
-  "directory": "/workspaces/Programacion2/build/samples",
-  "command": "/usr/bin/g++   -I/workspaces/Programacion2/modules/mates/include  -g   -o CMakeFiles/u1e04.dir/TP1/u1e04.cpp.o -c /workspaces/Programacion2/samples/TP1/u1e04.cpp",
-  "file": "/workspaces/Programacion2/samples/TP1/u1e04.cpp"
-},
-{
-  "directory": "/workspaces/Programacion2/build/samples",
-  "command": "/usr/bin/g++   -I/workspaces/Programacion2/modules/mates/include  -g   -o CMakeFiles/u1e03.dir/TP1/u1e03.cpp.o -c /workspaces/Programacion2/samples/TP1/u1e03.cpp",
-  "file": "/workspaces/Programacion2/samples/TP1/u1e03.cpp"
-},
-{
-  "directory": "/workspaces/Programacion2/build/samples",
-  "command": "/usr/bin/g++   -I/workspaces/Programacion2/modules/mates/include  -g   -o CMakeFiles/u1e05.dir/TP1/u1e05.cpp.o -c /workspaces/Programacion2/samples/TP1/u1e05.cpp",
-  "file": "/workspaces/Programacion2/samples/TP1/u1e05.cpp"
-},
-{
-  "directory": "/workspaces/Programacion2/build/samples",
-  "command": "/usr/bin/g++   -I/workspaces/Programacion2/modules/mates/include  -g   -o CMakeFiles/u1e06.dir/TP1/u1e06.cpp.o -c /workspaces/Programacion2/samples/TP1/u1e06.cpp",
-  "file": "/workspaces/Programacion2/samples/TP1/u1e06.cpp"
-},
-{
-  "directory": "/workspaces/Programacion2/build/samples",
-  "command": "/usr/bin/g++   -I/workspaces/Programacion2/modules/mates/include  -g   -o CMakeFiles/u1e15.dir/TP1/u1e15.cpp.o -c /workspaces/Programacion2/samples/TP1/u1e15.cpp",
-  "file": "/workspaces/Programacion2/samples/TP1/u1e15.cpp"
-},
-{
-  "directory": "/workspaces/Programacion2/build/samples",
-  "command": "/usr/bin/g++   -I/workspaces/Programacion2/modules/mates/include  -g   -o CMakeFiles/u1e07.dir/TP1/u1e07.cpp.o -c /workspaces/Programacion2/samples/TP1/u1e07.cpp",
-  "file": "/workspaces/Programacion2/samples/TP1/u1e07.cpp"
-},
-{
-  "directory": "/workspaces/Programacion2/build/samples",
-  "command": "/usr/bin/g++   -I/workspaces/Programacion2/modules/mates/include  -g   -o CMakeFiles/u1e12.dir/TP1/u1e12.cpp.o -c /workspaces/Programacion2/samples/TP1/u1e12.cpp",
-  "file": "/workspaces/Programacion2/samples/TP1/u1e12.cpp"
-},
-{
-  "directory": "/workspaces/Programacion2/build/samples",
-  "command": "/usr/bin/g++   -I/workspaces/Programacion2/modules/mates/include  -g   -o CMakeFiles/u1e14.dir/TP1/u1e14.cpp.o -c /workspaces/Programacion2/samples/TP1/u1e14.cpp",
-  "file": "/workspaces/Programacion2/samples/TP1/u1e14.cpp"
-},
-{
-  "directory": "/workspaces/Programacion2/build/samples",
-  "command": "/usr/bin/g++   -I/workspaces/Programacion2/modules/mates/include  -g   -o CMakeFiles/test_range.dir/TP1/test_range.cpp.o -c /workspaces/Programacion2/samples/TP1/test_range.cpp",
-  "file": "/workspaces/Programacion2/samples/TP1/test_range.cpp"
-},
-{
-  "directory": "/workspaces/Programacion2/build/samples",
-  "command": "/usr/bin/g++   -I/workspaces/Programacion2/modules/mates/include  -g   -o CMakeFiles/u1e11.dir/TP1/u1e11.cpp.o -c /workspaces/Programacion2/samples/TP1/u1e11.cpp",
-  "file": "/workspaces/Programacion2/samples/TP1/u1e11.cpp"
-},
-{
-  "directory": "/workspaces/Programacion2/build/samples",
-  "command": "/usr/bin/g++   -I/workspaces/Programacion2/modules/mates/include  -g   -o CMakeFiles/u1e08.dir/TP1/u1e08.cpp.o -c /workspaces/Programacion2/samples/TP1/u1e08.cpp",
-  "file": "/workspaces/Programacion2/samples/TP1/u1e08.cpp"
-},
-{
-  "directory": "/workspaces/Programacion2/build/samples",
-  "command": "/usr/bin/g++   -I/workspaces/Programacion2/modules/mates/include  -g   -o CMakeFiles/u1e09.dir/TP1/u1e09.cpp.o -c /workspaces/Programacion2/samples/TP1/u1e09.cpp",
-  "file": "/workspaces/Programacion2/samples/TP1/u1e09.cpp"
 }
 ]
