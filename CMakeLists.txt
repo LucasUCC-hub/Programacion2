@@ -5,6 +5,9 @@ project(AppLucas)
 # Añadir subdirectorios, compila automaticamente todas las librerias (subdirectorios) definidos en /modules
 add_subdirectory(custom-libs)
 
-add_executable(main ./main.cpp)
+# Verificar si se proporciona un archivo .cpp como argumento para 
+if(DEFINED Archivo)
+    add_executable(${CMAKE_PROJECT_NAME} ${Archivo})
+endif()
 
-target_link_libraries(main mates)
+target_link_libraries(${CMAKE_PROJECT_NAME} mates)

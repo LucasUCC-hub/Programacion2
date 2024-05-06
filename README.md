@@ -3,8 +3,7 @@ Por Lucas Fabiani
 
 ## Configuracion
 ```bash
-chmod +x setup # permitir ejecucion
-./setup 
+alias test='./test'
 ```
 
 ## Ejecutar el proyecto

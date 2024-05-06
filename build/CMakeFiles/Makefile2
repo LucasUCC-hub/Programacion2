@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /workspaces/Programacion2/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/main.dir/all
+all: CMakeFiles/AppLucas.dir/all
 all: custom-libs/all
 
 .PHONY : all
@@ -64,7 +64,7 @@ preinstall: custom-libs/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/main.dir/clean
+clean: CMakeFiles/AppLucas.dir/clean
 clean: custom-libs/clean
 
 .PHONY : clean
@@ -106,31 +106,31 @@ custom-libs/mates/clean: custom-libs/mates/CMakeFiles/mates.dir/clean
 .PHONY : custom-libs/mates/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/main.dir
+# Target rules for target CMakeFiles/AppLucas.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all: custom-libs/mates/CMakeFiles/mates.dir/all
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/Programacion2/build/CMakeFiles --progress-num=1,2 "Built target main"
-.PHONY : CMakeFiles/main.dir/all
+CMakeFiles/AppLucas.dir/all: custom-libs/mates/CMakeFiles/mates.dir/all
+	$(MAKE) -f CMakeFiles/AppLucas.dir/build.make CMakeFiles/AppLucas.dir/depend
+	$(MAKE) -f CMakeFiles/AppLucas.dir/build.make CMakeFiles/AppLucas.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/Programacion2/build/CMakeFiles --progress-num=1,2 "Built target AppLucas"
+.PHONY : CMakeFiles/AppLucas.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/main.dir/rule: cmake_check_build_system
+CMakeFiles/AppLucas.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Programacion2/build/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/AppLucas.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Programacion2/build/CMakeFiles 0
-.PHONY : CMakeFiles/main.dir/rule
+.PHONY : CMakeFiles/AppLucas.dir/rule
 
 # Convenience name for target.
-main: CMakeFiles/main.dir/rule
+AppLucas: CMakeFiles/AppLucas.dir/rule
 
-.PHONY : main
+.PHONY : AppLucas
 
 # clean rule for target.
-CMakeFiles/main.dir/clean:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
-.PHONY : CMakeFiles/main.dir/clean
+CMakeFiles/AppLucas.dir/clean:
+	$(MAKE) -f CMakeFiles/AppLucas.dir/build.make CMakeFiles/AppLucas.dir/clean
+.PHONY : CMakeFiles/AppLucas.dir/clean
 
 #=============================================================================
 # Target rules for target custom-libs/mates/CMakeFiles/mates.dir
