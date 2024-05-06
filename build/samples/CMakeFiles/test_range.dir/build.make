@@ -57,27 +57,27 @@ include samples/CMakeFiles/test_range.dir/progress.make
 # Include the compile flags for this target's objects.
 include samples/CMakeFiles/test_range.dir/flags.make
 
-samples/CMakeFiles/test_range.dir/test_range.cpp.o: samples/CMakeFiles/test_range.dir/flags.make
-samples/CMakeFiles/test_range.dir/test_range.cpp.o: ../samples/test_range.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Programacion2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object samples/CMakeFiles/test_range.dir/test_range.cpp.o"
-	cd /workspaces/Programacion2/build/samples && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_range.dir/test_range.cpp.o -c /workspaces/Programacion2/samples/test_range.cpp
+samples/CMakeFiles/test_range.dir/TP1/test_range.cpp.o: samples/CMakeFiles/test_range.dir/flags.make
+samples/CMakeFiles/test_range.dir/TP1/test_range.cpp.o: ../samples/TP1/test_range.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Programacion2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object samples/CMakeFiles/test_range.dir/TP1/test_range.cpp.o"
+	cd /workspaces/Programacion2/build/samples && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_range.dir/TP1/test_range.cpp.o -c /workspaces/Programacion2/samples/TP1/test_range.cpp
 
-samples/CMakeFiles/test_range.dir/test_range.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_range.dir/test_range.cpp.i"
-	cd /workspaces/Programacion2/build/samples && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Programacion2/samples/test_range.cpp > CMakeFiles/test_range.dir/test_range.cpp.i
+samples/CMakeFiles/test_range.dir/TP1/test_range.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_range.dir/TP1/test_range.cpp.i"
+	cd /workspaces/Programacion2/build/samples && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Programacion2/samples/TP1/test_range.cpp > CMakeFiles/test_range.dir/TP1/test_range.cpp.i
 
-samples/CMakeFiles/test_range.dir/test_range.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_range.dir/test_range.cpp.s"
-	cd /workspaces/Programacion2/build/samples && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Programacion2/samples/test_range.cpp -o CMakeFiles/test_range.dir/test_range.cpp.s
+samples/CMakeFiles/test_range.dir/TP1/test_range.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_range.dir/TP1/test_range.cpp.s"
+	cd /workspaces/Programacion2/build/samples && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Programacion2/samples/TP1/test_range.cpp -o CMakeFiles/test_range.dir/TP1/test_range.cpp.s
 
 # Object files for target test_range
 test_range_OBJECTS = \
-"CMakeFiles/test_range.dir/test_range.cpp.o"
+"CMakeFiles/test_range.dir/TP1/test_range.cpp.o"
 
 # External object files for target test_range
 test_range_EXTERNAL_OBJECTS =
 
-samples/test_range: samples/CMakeFiles/test_range.dir/test_range.cpp.o
+samples/test_range: samples/CMakeFiles/test_range.dir/TP1/test_range.cpp.o
 samples/test_range: samples/CMakeFiles/test_range.dir/build.make
 samples/test_range: modules/mates/build/libmates.a
 samples/test_range: samples/CMakeFiles/test_range.dir/link.txt

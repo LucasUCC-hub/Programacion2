@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /workspaces/Programacion2/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,6 +111,201 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+samples/CMakeFiles/u1e16.dir/rule:
+	cd /workspaces/Programacion2/build && $(MAKE) -f CMakeFiles/Makefile2 samples/CMakeFiles/u1e16.dir/rule
+.PHONY : samples/CMakeFiles/u1e16.dir/rule
+
+# Convenience name for target.
+u1e16: samples/CMakeFiles/u1e16.dir/rule
+
+.PHONY : u1e16
+
+# fast build rule for target.
+u1e16/fast:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e16.dir/build.make samples/CMakeFiles/u1e16.dir/build
+.PHONY : u1e16/fast
+
+# Convenience name for target.
+samples/CMakeFiles/u1e13.dir/rule:
+	cd /workspaces/Programacion2/build && $(MAKE) -f CMakeFiles/Makefile2 samples/CMakeFiles/u1e13.dir/rule
+.PHONY : samples/CMakeFiles/u1e13.dir/rule
+
+# Convenience name for target.
+u1e13: samples/CMakeFiles/u1e13.dir/rule
+
+.PHONY : u1e13
+
+# fast build rule for target.
+u1e13/fast:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e13.dir/build.make samples/CMakeFiles/u1e13.dir/build
+.PHONY : u1e13/fast
+
+# Convenience name for target.
+samples/CMakeFiles/u1e01.dir/rule:
+	cd /workspaces/Programacion2/build && $(MAKE) -f CMakeFiles/Makefile2 samples/CMakeFiles/u1e01.dir/rule
+.PHONY : samples/CMakeFiles/u1e01.dir/rule
+
+# Convenience name for target.
+u1e01: samples/CMakeFiles/u1e01.dir/rule
+
+.PHONY : u1e01
+
+# fast build rule for target.
+u1e01/fast:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e01.dir/build.make samples/CMakeFiles/u1e01.dir/build
+.PHONY : u1e01/fast
+
+# Convenience name for target.
+samples/CMakeFiles/u1e10.dir/rule:
+	cd /workspaces/Programacion2/build && $(MAKE) -f CMakeFiles/Makefile2 samples/CMakeFiles/u1e10.dir/rule
+.PHONY : samples/CMakeFiles/u1e10.dir/rule
+
+# Convenience name for target.
+u1e10: samples/CMakeFiles/u1e10.dir/rule
+
+.PHONY : u1e10
+
+# fast build rule for target.
+u1e10/fast:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e10.dir/build.make samples/CMakeFiles/u1e10.dir/build
+.PHONY : u1e10/fast
+
+# Convenience name for target.
+samples/CMakeFiles/u1e02.dir/rule:
+	cd /workspaces/Programacion2/build && $(MAKE) -f CMakeFiles/Makefile2 samples/CMakeFiles/u1e02.dir/rule
+.PHONY : samples/CMakeFiles/u1e02.dir/rule
+
+# Convenience name for target.
+u1e02: samples/CMakeFiles/u1e02.dir/rule
+
+.PHONY : u1e02
+
+# fast build rule for target.
+u1e02/fast:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e02.dir/build.make samples/CMakeFiles/u1e02.dir/build
+.PHONY : u1e02/fast
+
+# Convenience name for target.
+samples/CMakeFiles/u1e04.dir/rule:
+	cd /workspaces/Programacion2/build && $(MAKE) -f CMakeFiles/Makefile2 samples/CMakeFiles/u1e04.dir/rule
+.PHONY : samples/CMakeFiles/u1e04.dir/rule
+
+# Convenience name for target.
+u1e04: samples/CMakeFiles/u1e04.dir/rule
+
+.PHONY : u1e04
+
+# fast build rule for target.
+u1e04/fast:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e04.dir/build.make samples/CMakeFiles/u1e04.dir/build
+.PHONY : u1e04/fast
+
+# Convenience name for target.
+samples/CMakeFiles/u1e03.dir/rule:
+	cd /workspaces/Programacion2/build && $(MAKE) -f CMakeFiles/Makefile2 samples/CMakeFiles/u1e03.dir/rule
+.PHONY : samples/CMakeFiles/u1e03.dir/rule
+
+# Convenience name for target.
+u1e03: samples/CMakeFiles/u1e03.dir/rule
+
+.PHONY : u1e03
+
+# fast build rule for target.
+u1e03/fast:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e03.dir/build.make samples/CMakeFiles/u1e03.dir/build
+.PHONY : u1e03/fast
+
+# Convenience name for target.
+samples/CMakeFiles/u1e05.dir/rule:
+	cd /workspaces/Programacion2/build && $(MAKE) -f CMakeFiles/Makefile2 samples/CMakeFiles/u1e05.dir/rule
+.PHONY : samples/CMakeFiles/u1e05.dir/rule
+
+# Convenience name for target.
+u1e05: samples/CMakeFiles/u1e05.dir/rule
+
+.PHONY : u1e05
+
+# fast build rule for target.
+u1e05/fast:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e05.dir/build.make samples/CMakeFiles/u1e05.dir/build
+.PHONY : u1e05/fast
+
+# Convenience name for target.
+samples/CMakeFiles/u1e06.dir/rule:
+	cd /workspaces/Programacion2/build && $(MAKE) -f CMakeFiles/Makefile2 samples/CMakeFiles/u1e06.dir/rule
+.PHONY : samples/CMakeFiles/u1e06.dir/rule
+
+# Convenience name for target.
+u1e06: samples/CMakeFiles/u1e06.dir/rule
+
+.PHONY : u1e06
+
+# fast build rule for target.
+u1e06/fast:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e06.dir/build.make samples/CMakeFiles/u1e06.dir/build
+.PHONY : u1e06/fast
+
+# Convenience name for target.
+samples/CMakeFiles/u1e15.dir/rule:
+	cd /workspaces/Programacion2/build && $(MAKE) -f CMakeFiles/Makefile2 samples/CMakeFiles/u1e15.dir/rule
+.PHONY : samples/CMakeFiles/u1e15.dir/rule
+
+# Convenience name for target.
+u1e15: samples/CMakeFiles/u1e15.dir/rule
+
+.PHONY : u1e15
+
+# fast build rule for target.
+u1e15/fast:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e15.dir/build.make samples/CMakeFiles/u1e15.dir/build
+.PHONY : u1e15/fast
+
+# Convenience name for target.
+samples/CMakeFiles/u1e07.dir/rule:
+	cd /workspaces/Programacion2/build && $(MAKE) -f CMakeFiles/Makefile2 samples/CMakeFiles/u1e07.dir/rule
+.PHONY : samples/CMakeFiles/u1e07.dir/rule
+
+# Convenience name for target.
+u1e07: samples/CMakeFiles/u1e07.dir/rule
+
+.PHONY : u1e07
+
+# fast build rule for target.
+u1e07/fast:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e07.dir/build.make samples/CMakeFiles/u1e07.dir/build
+.PHONY : u1e07/fast
+
+# Convenience name for target.
+samples/CMakeFiles/u1e12.dir/rule:
+	cd /workspaces/Programacion2/build && $(MAKE) -f CMakeFiles/Makefile2 samples/CMakeFiles/u1e12.dir/rule
+.PHONY : samples/CMakeFiles/u1e12.dir/rule
+
+# Convenience name for target.
+u1e12: samples/CMakeFiles/u1e12.dir/rule
+
+.PHONY : u1e12
+
+# fast build rule for target.
+u1e12/fast:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e12.dir/build.make samples/CMakeFiles/u1e12.dir/build
+.PHONY : u1e12/fast
+
+# Convenience name for target.
+samples/CMakeFiles/u1e14.dir/rule:
+	cd /workspaces/Programacion2/build && $(MAKE) -f CMakeFiles/Makefile2 samples/CMakeFiles/u1e14.dir/rule
+.PHONY : samples/CMakeFiles/u1e14.dir/rule
+
+# Convenience name for target.
+u1e14: samples/CMakeFiles/u1e14.dir/rule
+
+.PHONY : u1e14
+
+# fast build rule for target.
+u1e14/fast:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e14.dir/build.make samples/CMakeFiles/u1e14.dir/build
+.PHONY : u1e14/fast
+
+# Convenience name for target.
 samples/CMakeFiles/test_range.dir/rule:
 	cd /workspaces/Programacion2/build && $(MAKE) -f CMakeFiles/Makefile2 samples/CMakeFiles/test_range.dir/rule
 .PHONY : samples/CMakeFiles/test_range.dir/rule
@@ -126,73 +321,508 @@ test_range/fast:
 .PHONY : test_range/fast
 
 # Convenience name for target.
-samples/CMakeFiles/template.dir/rule:
-	cd /workspaces/Programacion2/build && $(MAKE) -f CMakeFiles/Makefile2 samples/CMakeFiles/template.dir/rule
-.PHONY : samples/CMakeFiles/template.dir/rule
+samples/CMakeFiles/u1e11.dir/rule:
+	cd /workspaces/Programacion2/build && $(MAKE) -f CMakeFiles/Makefile2 samples/CMakeFiles/u1e11.dir/rule
+.PHONY : samples/CMakeFiles/u1e11.dir/rule
 
 # Convenience name for target.
-template: samples/CMakeFiles/template.dir/rule
+u1e11: samples/CMakeFiles/u1e11.dir/rule
 
-.PHONY : template
+.PHONY : u1e11
 
 # fast build rule for target.
-template/fast:
-	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/template.dir/build.make samples/CMakeFiles/template.dir/build
-.PHONY : template/fast
+u1e11/fast:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e11.dir/build.make samples/CMakeFiles/u1e11.dir/build
+.PHONY : u1e11/fast
 
-template.o: template.cpp.o
+# Convenience name for target.
+samples/CMakeFiles/u1e08.dir/rule:
+	cd /workspaces/Programacion2/build && $(MAKE) -f CMakeFiles/Makefile2 samples/CMakeFiles/u1e08.dir/rule
+.PHONY : samples/CMakeFiles/u1e08.dir/rule
 
-.PHONY : template.o
+# Convenience name for target.
+u1e08: samples/CMakeFiles/u1e08.dir/rule
+
+.PHONY : u1e08
+
+# fast build rule for target.
+u1e08/fast:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e08.dir/build.make samples/CMakeFiles/u1e08.dir/build
+.PHONY : u1e08/fast
+
+# Convenience name for target.
+samples/CMakeFiles/u1e09.dir/rule:
+	cd /workspaces/Programacion2/build && $(MAKE) -f CMakeFiles/Makefile2 samples/CMakeFiles/u1e09.dir/rule
+.PHONY : samples/CMakeFiles/u1e09.dir/rule
+
+# Convenience name for target.
+u1e09: samples/CMakeFiles/u1e09.dir/rule
+
+.PHONY : u1e09
+
+# fast build rule for target.
+u1e09/fast:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e09.dir/build.make samples/CMakeFiles/u1e09.dir/build
+.PHONY : u1e09/fast
+
+TP1/test_range.o: TP1/test_range.cpp.o
+
+.PHONY : TP1/test_range.o
 
 # target to build an object file
-template.cpp.o:
-	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/template.dir/build.make samples/CMakeFiles/template.dir/template.cpp.o
-.PHONY : template.cpp.o
+TP1/test_range.cpp.o:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/test_range.dir/build.make samples/CMakeFiles/test_range.dir/TP1/test_range.cpp.o
+.PHONY : TP1/test_range.cpp.o
 
-template.i: template.cpp.i
+TP1/test_range.i: TP1/test_range.cpp.i
 
-.PHONY : template.i
+.PHONY : TP1/test_range.i
 
 # target to preprocess a source file
-template.cpp.i:
-	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/template.dir/build.make samples/CMakeFiles/template.dir/template.cpp.i
-.PHONY : template.cpp.i
+TP1/test_range.cpp.i:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/test_range.dir/build.make samples/CMakeFiles/test_range.dir/TP1/test_range.cpp.i
+.PHONY : TP1/test_range.cpp.i
 
-template.s: template.cpp.s
+TP1/test_range.s: TP1/test_range.cpp.s
 
-.PHONY : template.s
+.PHONY : TP1/test_range.s
 
 # target to generate assembly for a file
-template.cpp.s:
-	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/template.dir/build.make samples/CMakeFiles/template.dir/template.cpp.s
-.PHONY : template.cpp.s
+TP1/test_range.cpp.s:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/test_range.dir/build.make samples/CMakeFiles/test_range.dir/TP1/test_range.cpp.s
+.PHONY : TP1/test_range.cpp.s
 
-test_range.o: test_range.cpp.o
+TP1/u1e01.o: TP1/u1e01.cpp.o
 
-.PHONY : test_range.o
+.PHONY : TP1/u1e01.o
 
 # target to build an object file
-test_range.cpp.o:
-	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/test_range.dir/build.make samples/CMakeFiles/test_range.dir/test_range.cpp.o
-.PHONY : test_range.cpp.o
+TP1/u1e01.cpp.o:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e01.dir/build.make samples/CMakeFiles/u1e01.dir/TP1/u1e01.cpp.o
+.PHONY : TP1/u1e01.cpp.o
 
-test_range.i: test_range.cpp.i
+TP1/u1e01.i: TP1/u1e01.cpp.i
 
-.PHONY : test_range.i
+.PHONY : TP1/u1e01.i
 
 # target to preprocess a source file
-test_range.cpp.i:
-	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/test_range.dir/build.make samples/CMakeFiles/test_range.dir/test_range.cpp.i
-.PHONY : test_range.cpp.i
+TP1/u1e01.cpp.i:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e01.dir/build.make samples/CMakeFiles/u1e01.dir/TP1/u1e01.cpp.i
+.PHONY : TP1/u1e01.cpp.i
 
-test_range.s: test_range.cpp.s
+TP1/u1e01.s: TP1/u1e01.cpp.s
 
-.PHONY : test_range.s
+.PHONY : TP1/u1e01.s
 
 # target to generate assembly for a file
-test_range.cpp.s:
-	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/test_range.dir/build.make samples/CMakeFiles/test_range.dir/test_range.cpp.s
-.PHONY : test_range.cpp.s
+TP1/u1e01.cpp.s:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e01.dir/build.make samples/CMakeFiles/u1e01.dir/TP1/u1e01.cpp.s
+.PHONY : TP1/u1e01.cpp.s
+
+TP1/u1e02.o: TP1/u1e02.cpp.o
+
+.PHONY : TP1/u1e02.o
+
+# target to build an object file
+TP1/u1e02.cpp.o:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e02.dir/build.make samples/CMakeFiles/u1e02.dir/TP1/u1e02.cpp.o
+.PHONY : TP1/u1e02.cpp.o
+
+TP1/u1e02.i: TP1/u1e02.cpp.i
+
+.PHONY : TP1/u1e02.i
+
+# target to preprocess a source file
+TP1/u1e02.cpp.i:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e02.dir/build.make samples/CMakeFiles/u1e02.dir/TP1/u1e02.cpp.i
+.PHONY : TP1/u1e02.cpp.i
+
+TP1/u1e02.s: TP1/u1e02.cpp.s
+
+.PHONY : TP1/u1e02.s
+
+# target to generate assembly for a file
+TP1/u1e02.cpp.s:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e02.dir/build.make samples/CMakeFiles/u1e02.dir/TP1/u1e02.cpp.s
+.PHONY : TP1/u1e02.cpp.s
+
+TP1/u1e03.o: TP1/u1e03.cpp.o
+
+.PHONY : TP1/u1e03.o
+
+# target to build an object file
+TP1/u1e03.cpp.o:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e03.dir/build.make samples/CMakeFiles/u1e03.dir/TP1/u1e03.cpp.o
+.PHONY : TP1/u1e03.cpp.o
+
+TP1/u1e03.i: TP1/u1e03.cpp.i
+
+.PHONY : TP1/u1e03.i
+
+# target to preprocess a source file
+TP1/u1e03.cpp.i:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e03.dir/build.make samples/CMakeFiles/u1e03.dir/TP1/u1e03.cpp.i
+.PHONY : TP1/u1e03.cpp.i
+
+TP1/u1e03.s: TP1/u1e03.cpp.s
+
+.PHONY : TP1/u1e03.s
+
+# target to generate assembly for a file
+TP1/u1e03.cpp.s:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e03.dir/build.make samples/CMakeFiles/u1e03.dir/TP1/u1e03.cpp.s
+.PHONY : TP1/u1e03.cpp.s
+
+TP1/u1e04.o: TP1/u1e04.cpp.o
+
+.PHONY : TP1/u1e04.o
+
+# target to build an object file
+TP1/u1e04.cpp.o:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e04.dir/build.make samples/CMakeFiles/u1e04.dir/TP1/u1e04.cpp.o
+.PHONY : TP1/u1e04.cpp.o
+
+TP1/u1e04.i: TP1/u1e04.cpp.i
+
+.PHONY : TP1/u1e04.i
+
+# target to preprocess a source file
+TP1/u1e04.cpp.i:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e04.dir/build.make samples/CMakeFiles/u1e04.dir/TP1/u1e04.cpp.i
+.PHONY : TP1/u1e04.cpp.i
+
+TP1/u1e04.s: TP1/u1e04.cpp.s
+
+.PHONY : TP1/u1e04.s
+
+# target to generate assembly for a file
+TP1/u1e04.cpp.s:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e04.dir/build.make samples/CMakeFiles/u1e04.dir/TP1/u1e04.cpp.s
+.PHONY : TP1/u1e04.cpp.s
+
+TP1/u1e05.o: TP1/u1e05.cpp.o
+
+.PHONY : TP1/u1e05.o
+
+# target to build an object file
+TP1/u1e05.cpp.o:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e05.dir/build.make samples/CMakeFiles/u1e05.dir/TP1/u1e05.cpp.o
+.PHONY : TP1/u1e05.cpp.o
+
+TP1/u1e05.i: TP1/u1e05.cpp.i
+
+.PHONY : TP1/u1e05.i
+
+# target to preprocess a source file
+TP1/u1e05.cpp.i:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e05.dir/build.make samples/CMakeFiles/u1e05.dir/TP1/u1e05.cpp.i
+.PHONY : TP1/u1e05.cpp.i
+
+TP1/u1e05.s: TP1/u1e05.cpp.s
+
+.PHONY : TP1/u1e05.s
+
+# target to generate assembly for a file
+TP1/u1e05.cpp.s:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e05.dir/build.make samples/CMakeFiles/u1e05.dir/TP1/u1e05.cpp.s
+.PHONY : TP1/u1e05.cpp.s
+
+TP1/u1e06.o: TP1/u1e06.cpp.o
+
+.PHONY : TP1/u1e06.o
+
+# target to build an object file
+TP1/u1e06.cpp.o:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e06.dir/build.make samples/CMakeFiles/u1e06.dir/TP1/u1e06.cpp.o
+.PHONY : TP1/u1e06.cpp.o
+
+TP1/u1e06.i: TP1/u1e06.cpp.i
+
+.PHONY : TP1/u1e06.i
+
+# target to preprocess a source file
+TP1/u1e06.cpp.i:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e06.dir/build.make samples/CMakeFiles/u1e06.dir/TP1/u1e06.cpp.i
+.PHONY : TP1/u1e06.cpp.i
+
+TP1/u1e06.s: TP1/u1e06.cpp.s
+
+.PHONY : TP1/u1e06.s
+
+# target to generate assembly for a file
+TP1/u1e06.cpp.s:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e06.dir/build.make samples/CMakeFiles/u1e06.dir/TP1/u1e06.cpp.s
+.PHONY : TP1/u1e06.cpp.s
+
+TP1/u1e07.o: TP1/u1e07.cpp.o
+
+.PHONY : TP1/u1e07.o
+
+# target to build an object file
+TP1/u1e07.cpp.o:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e07.dir/build.make samples/CMakeFiles/u1e07.dir/TP1/u1e07.cpp.o
+.PHONY : TP1/u1e07.cpp.o
+
+TP1/u1e07.i: TP1/u1e07.cpp.i
+
+.PHONY : TP1/u1e07.i
+
+# target to preprocess a source file
+TP1/u1e07.cpp.i:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e07.dir/build.make samples/CMakeFiles/u1e07.dir/TP1/u1e07.cpp.i
+.PHONY : TP1/u1e07.cpp.i
+
+TP1/u1e07.s: TP1/u1e07.cpp.s
+
+.PHONY : TP1/u1e07.s
+
+# target to generate assembly for a file
+TP1/u1e07.cpp.s:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e07.dir/build.make samples/CMakeFiles/u1e07.dir/TP1/u1e07.cpp.s
+.PHONY : TP1/u1e07.cpp.s
+
+TP1/u1e08.o: TP1/u1e08.cpp.o
+
+.PHONY : TP1/u1e08.o
+
+# target to build an object file
+TP1/u1e08.cpp.o:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e08.dir/build.make samples/CMakeFiles/u1e08.dir/TP1/u1e08.cpp.o
+.PHONY : TP1/u1e08.cpp.o
+
+TP1/u1e08.i: TP1/u1e08.cpp.i
+
+.PHONY : TP1/u1e08.i
+
+# target to preprocess a source file
+TP1/u1e08.cpp.i:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e08.dir/build.make samples/CMakeFiles/u1e08.dir/TP1/u1e08.cpp.i
+.PHONY : TP1/u1e08.cpp.i
+
+TP1/u1e08.s: TP1/u1e08.cpp.s
+
+.PHONY : TP1/u1e08.s
+
+# target to generate assembly for a file
+TP1/u1e08.cpp.s:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e08.dir/build.make samples/CMakeFiles/u1e08.dir/TP1/u1e08.cpp.s
+.PHONY : TP1/u1e08.cpp.s
+
+TP1/u1e09.o: TP1/u1e09.cpp.o
+
+.PHONY : TP1/u1e09.o
+
+# target to build an object file
+TP1/u1e09.cpp.o:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e09.dir/build.make samples/CMakeFiles/u1e09.dir/TP1/u1e09.cpp.o
+.PHONY : TP1/u1e09.cpp.o
+
+TP1/u1e09.i: TP1/u1e09.cpp.i
+
+.PHONY : TP1/u1e09.i
+
+# target to preprocess a source file
+TP1/u1e09.cpp.i:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e09.dir/build.make samples/CMakeFiles/u1e09.dir/TP1/u1e09.cpp.i
+.PHONY : TP1/u1e09.cpp.i
+
+TP1/u1e09.s: TP1/u1e09.cpp.s
+
+.PHONY : TP1/u1e09.s
+
+# target to generate assembly for a file
+TP1/u1e09.cpp.s:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e09.dir/build.make samples/CMakeFiles/u1e09.dir/TP1/u1e09.cpp.s
+.PHONY : TP1/u1e09.cpp.s
+
+TP1/u1e10.o: TP1/u1e10.cpp.o
+
+.PHONY : TP1/u1e10.o
+
+# target to build an object file
+TP1/u1e10.cpp.o:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e10.dir/build.make samples/CMakeFiles/u1e10.dir/TP1/u1e10.cpp.o
+.PHONY : TP1/u1e10.cpp.o
+
+TP1/u1e10.i: TP1/u1e10.cpp.i
+
+.PHONY : TP1/u1e10.i
+
+# target to preprocess a source file
+TP1/u1e10.cpp.i:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e10.dir/build.make samples/CMakeFiles/u1e10.dir/TP1/u1e10.cpp.i
+.PHONY : TP1/u1e10.cpp.i
+
+TP1/u1e10.s: TP1/u1e10.cpp.s
+
+.PHONY : TP1/u1e10.s
+
+# target to generate assembly for a file
+TP1/u1e10.cpp.s:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e10.dir/build.make samples/CMakeFiles/u1e10.dir/TP1/u1e10.cpp.s
+.PHONY : TP1/u1e10.cpp.s
+
+TP1/u1e11.o: TP1/u1e11.cpp.o
+
+.PHONY : TP1/u1e11.o
+
+# target to build an object file
+TP1/u1e11.cpp.o:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e11.dir/build.make samples/CMakeFiles/u1e11.dir/TP1/u1e11.cpp.o
+.PHONY : TP1/u1e11.cpp.o
+
+TP1/u1e11.i: TP1/u1e11.cpp.i
+
+.PHONY : TP1/u1e11.i
+
+# target to preprocess a source file
+TP1/u1e11.cpp.i:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e11.dir/build.make samples/CMakeFiles/u1e11.dir/TP1/u1e11.cpp.i
+.PHONY : TP1/u1e11.cpp.i
+
+TP1/u1e11.s: TP1/u1e11.cpp.s
+
+.PHONY : TP1/u1e11.s
+
+# target to generate assembly for a file
+TP1/u1e11.cpp.s:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e11.dir/build.make samples/CMakeFiles/u1e11.dir/TP1/u1e11.cpp.s
+.PHONY : TP1/u1e11.cpp.s
+
+TP1/u1e12.o: TP1/u1e12.cpp.o
+
+.PHONY : TP1/u1e12.o
+
+# target to build an object file
+TP1/u1e12.cpp.o:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e12.dir/build.make samples/CMakeFiles/u1e12.dir/TP1/u1e12.cpp.o
+.PHONY : TP1/u1e12.cpp.o
+
+TP1/u1e12.i: TP1/u1e12.cpp.i
+
+.PHONY : TP1/u1e12.i
+
+# target to preprocess a source file
+TP1/u1e12.cpp.i:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e12.dir/build.make samples/CMakeFiles/u1e12.dir/TP1/u1e12.cpp.i
+.PHONY : TP1/u1e12.cpp.i
+
+TP1/u1e12.s: TP1/u1e12.cpp.s
+
+.PHONY : TP1/u1e12.s
+
+# target to generate assembly for a file
+TP1/u1e12.cpp.s:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e12.dir/build.make samples/CMakeFiles/u1e12.dir/TP1/u1e12.cpp.s
+.PHONY : TP1/u1e12.cpp.s
+
+TP1/u1e13.o: TP1/u1e13.cpp.o
+
+.PHONY : TP1/u1e13.o
+
+# target to build an object file
+TP1/u1e13.cpp.o:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e13.dir/build.make samples/CMakeFiles/u1e13.dir/TP1/u1e13.cpp.o
+.PHONY : TP1/u1e13.cpp.o
+
+TP1/u1e13.i: TP1/u1e13.cpp.i
+
+.PHONY : TP1/u1e13.i
+
+# target to preprocess a source file
+TP1/u1e13.cpp.i:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e13.dir/build.make samples/CMakeFiles/u1e13.dir/TP1/u1e13.cpp.i
+.PHONY : TP1/u1e13.cpp.i
+
+TP1/u1e13.s: TP1/u1e13.cpp.s
+
+.PHONY : TP1/u1e13.s
+
+# target to generate assembly for a file
+TP1/u1e13.cpp.s:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e13.dir/build.make samples/CMakeFiles/u1e13.dir/TP1/u1e13.cpp.s
+.PHONY : TP1/u1e13.cpp.s
+
+TP1/u1e14.o: TP1/u1e14.cpp.o
+
+.PHONY : TP1/u1e14.o
+
+# target to build an object file
+TP1/u1e14.cpp.o:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e14.dir/build.make samples/CMakeFiles/u1e14.dir/TP1/u1e14.cpp.o
+.PHONY : TP1/u1e14.cpp.o
+
+TP1/u1e14.i: TP1/u1e14.cpp.i
+
+.PHONY : TP1/u1e14.i
+
+# target to preprocess a source file
+TP1/u1e14.cpp.i:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e14.dir/build.make samples/CMakeFiles/u1e14.dir/TP1/u1e14.cpp.i
+.PHONY : TP1/u1e14.cpp.i
+
+TP1/u1e14.s: TP1/u1e14.cpp.s
+
+.PHONY : TP1/u1e14.s
+
+# target to generate assembly for a file
+TP1/u1e14.cpp.s:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e14.dir/build.make samples/CMakeFiles/u1e14.dir/TP1/u1e14.cpp.s
+.PHONY : TP1/u1e14.cpp.s
+
+TP1/u1e15.o: TP1/u1e15.cpp.o
+
+.PHONY : TP1/u1e15.o
+
+# target to build an object file
+TP1/u1e15.cpp.o:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e15.dir/build.make samples/CMakeFiles/u1e15.dir/TP1/u1e15.cpp.o
+.PHONY : TP1/u1e15.cpp.o
+
+TP1/u1e15.i: TP1/u1e15.cpp.i
+
+.PHONY : TP1/u1e15.i
+
+# target to preprocess a source file
+TP1/u1e15.cpp.i:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e15.dir/build.make samples/CMakeFiles/u1e15.dir/TP1/u1e15.cpp.i
+.PHONY : TP1/u1e15.cpp.i
+
+TP1/u1e15.s: TP1/u1e15.cpp.s
+
+.PHONY : TP1/u1e15.s
+
+# target to generate assembly for a file
+TP1/u1e15.cpp.s:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e15.dir/build.make samples/CMakeFiles/u1e15.dir/TP1/u1e15.cpp.s
+.PHONY : TP1/u1e15.cpp.s
+
+TP1/u1e16.o: TP1/u1e16.cpp.o
+
+.PHONY : TP1/u1e16.o
+
+# target to build an object file
+TP1/u1e16.cpp.o:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e16.dir/build.make samples/CMakeFiles/u1e16.dir/TP1/u1e16.cpp.o
+.PHONY : TP1/u1e16.cpp.o
+
+TP1/u1e16.i: TP1/u1e16.cpp.i
+
+.PHONY : TP1/u1e16.i
+
+# target to preprocess a source file
+TP1/u1e16.cpp.i:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e16.dir/build.make samples/CMakeFiles/u1e16.dir/TP1/u1e16.cpp.i
+.PHONY : TP1/u1e16.cpp.i
+
+TP1/u1e16.s: TP1/u1e16.cpp.s
+
+.PHONY : TP1/u1e16.s
+
+# target to generate assembly for a file
+TP1/u1e16.cpp.s:
+	cd /workspaces/Programacion2/build && $(MAKE) -f samples/CMakeFiles/u1e16.dir/build.make samples/CMakeFiles/u1e16.dir/TP1/u1e16.cpp.s
+.PHONY : TP1/u1e16.cpp.s
 
 # Help Target
 help:
@@ -200,16 +830,76 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... u1e16"
+	@echo "... u1e13"
+	@echo "... u1e01"
+	@echo "... u1e10"
+	@echo "... u1e02"
+	@echo "... u1e04"
+	@echo "... u1e03"
+	@echo "... u1e05"
+	@echo "... u1e06"
+	@echo "... u1e15"
+	@echo "... u1e07"
+	@echo "... u1e12"
+	@echo "... u1e14"
 	@echo "... test_range"
-	@echo "... template"
-	@echo "... template.o"
-	@echo "... template.i"
-	@echo "... template.s"
-	@echo "... test_range.o"
-	@echo "... test_range.i"
-	@echo "... test_range.s"
+	@echo "... u1e11"
+	@echo "... u1e08"
+	@echo "... u1e09"
+	@echo "... TP1/test_range.o"
+	@echo "... TP1/test_range.i"
+	@echo "... TP1/test_range.s"
+	@echo "... TP1/u1e01.o"
+	@echo "... TP1/u1e01.i"
+	@echo "... TP1/u1e01.s"
+	@echo "... TP1/u1e02.o"
+	@echo "... TP1/u1e02.i"
+	@echo "... TP1/u1e02.s"
+	@echo "... TP1/u1e03.o"
+	@echo "... TP1/u1e03.i"
+	@echo "... TP1/u1e03.s"
+	@echo "... TP1/u1e04.o"
+	@echo "... TP1/u1e04.i"
+	@echo "... TP1/u1e04.s"
+	@echo "... TP1/u1e05.o"
+	@echo "... TP1/u1e05.i"
+	@echo "... TP1/u1e05.s"
+	@echo "... TP1/u1e06.o"
+	@echo "... TP1/u1e06.i"
+	@echo "... TP1/u1e06.s"
+	@echo "... TP1/u1e07.o"
+	@echo "... TP1/u1e07.i"
+	@echo "... TP1/u1e07.s"
+	@echo "... TP1/u1e08.o"
+	@echo "... TP1/u1e08.i"
+	@echo "... TP1/u1e08.s"
+	@echo "... TP1/u1e09.o"
+	@echo "... TP1/u1e09.i"
+	@echo "... TP1/u1e09.s"
+	@echo "... TP1/u1e10.o"
+	@echo "... TP1/u1e10.i"
+	@echo "... TP1/u1e10.s"
+	@echo "... TP1/u1e11.o"
+	@echo "... TP1/u1e11.i"
+	@echo "... TP1/u1e11.s"
+	@echo "... TP1/u1e12.o"
+	@echo "... TP1/u1e12.i"
+	@echo "... TP1/u1e12.s"
+	@echo "... TP1/u1e13.o"
+	@echo "... TP1/u1e13.i"
+	@echo "... TP1/u1e13.s"
+	@echo "... TP1/u1e14.o"
+	@echo "... TP1/u1e14.i"
+	@echo "... TP1/u1e14.s"
+	@echo "... TP1/u1e15.o"
+	@echo "... TP1/u1e15.i"
+	@echo "... TP1/u1e15.s"
+	@echo "... TP1/u1e16.o"
+	@echo "... TP1/u1e16.i"
+	@echo "... TP1/u1e16.s"
 .PHONY : help
 
 

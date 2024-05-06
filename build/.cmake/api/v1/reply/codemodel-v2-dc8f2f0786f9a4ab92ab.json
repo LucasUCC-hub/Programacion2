@@ -1,0 +1,294 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "modules",
+					"childIndexes" : 
+					[
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules"
+				},
+				{
+					"build" : "modules/mates",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "modules/mates",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "samples",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "samples",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "AppLucas",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "mates",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "samples",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-7f8804431c8d44bcae6d.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "mates::@b2dee3694d13700d8354",
+					"jsonFile" : "target-mates-Debug-3354bf4577a1dfb29379.json",
+					"name" : "mates",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "test_range::@fd003194bc69d7fb51e8",
+					"jsonFile" : "target-test_range-Debug-cf594ca6f5bc619d5802.json",
+					"name" : "test_range",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "u1e01::@fd003194bc69d7fb51e8",
+					"jsonFile" : "target-u1e01-Debug-bf53da241581d2c2c7c5.json",
+					"name" : "u1e01",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "u1e02::@fd003194bc69d7fb51e8",
+					"jsonFile" : "target-u1e02-Debug-e72a0d26948cf512a5ff.json",
+					"name" : "u1e02",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "u1e03::@fd003194bc69d7fb51e8",
+					"jsonFile" : "target-u1e03-Debug-7b25181b999b13dd6046.json",
+					"name" : "u1e03",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "u1e04::@fd003194bc69d7fb51e8",
+					"jsonFile" : "target-u1e04-Debug-1cabb6e51571f7532c24.json",
+					"name" : "u1e04",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "u1e05::@fd003194bc69d7fb51e8",
+					"jsonFile" : "target-u1e05-Debug-ed36d8284271d8baafce.json",
+					"name" : "u1e05",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "u1e06::@fd003194bc69d7fb51e8",
+					"jsonFile" : "target-u1e06-Debug-e2b21da37b795af6e76b.json",
+					"name" : "u1e06",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "u1e07::@fd003194bc69d7fb51e8",
+					"jsonFile" : "target-u1e07-Debug-507c31637fa6def738ca.json",
+					"name" : "u1e07",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "u1e08::@fd003194bc69d7fb51e8",
+					"jsonFile" : "target-u1e08-Debug-56debf4300ed5aee2aea.json",
+					"name" : "u1e08",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "u1e09::@fd003194bc69d7fb51e8",
+					"jsonFile" : "target-u1e09-Debug-6f41974ae277b68be1ff.json",
+					"name" : "u1e09",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "u1e10::@fd003194bc69d7fb51e8",
+					"jsonFile" : "target-u1e10-Debug-942cd0f1cff0da6b5ff3.json",
+					"name" : "u1e10",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "u1e11::@fd003194bc69d7fb51e8",
+					"jsonFile" : "target-u1e11-Debug-19faa6b487e1425bd275.json",
+					"name" : "u1e11",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "u1e12::@fd003194bc69d7fb51e8",
+					"jsonFile" : "target-u1e12-Debug-d1a6b26a768cfa9343c8.json",
+					"name" : "u1e12",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "u1e13::@fd003194bc69d7fb51e8",
+					"jsonFile" : "target-u1e13-Debug-3d1ef5263ee1def238b4.json",
+					"name" : "u1e13",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "u1e14::@fd003194bc69d7fb51e8",
+					"jsonFile" : "target-u1e14-Debug-c4501720b7ac339d640f.json",
+					"name" : "u1e14",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "u1e15::@fd003194bc69d7fb51e8",
+					"jsonFile" : "target-u1e15-Debug-591999effd018d27b6bb.json",
+					"name" : "u1e15",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "u1e16::@fd003194bc69d7fb51e8",
+					"jsonFile" : "target-u1e16-Debug-deb2966fdb6bf855d4fc.json",
+					"name" : "u1e16",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspaces/Programacion2/build",
+		"source" : "/workspaces/Programacion2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

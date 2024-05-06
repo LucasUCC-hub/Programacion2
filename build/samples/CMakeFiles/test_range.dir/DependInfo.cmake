@@ -4,13 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/workspaces/Programacion2/samples/test_range.cpp" "/workspaces/Programacion2/build/samples/CMakeFiles/test_range.dir/test_range.cpp.o"
+  "/workspaces/Programacion2/samples/TP1/test_range.cpp" "/workspaces/Programacion2/build/samples/CMakeFiles/test_range.dir/TP1/test_range.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../lib/mates/include"
   "../modules/mates/include"
   )
 
