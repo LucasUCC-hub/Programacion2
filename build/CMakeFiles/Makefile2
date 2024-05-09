@@ -54,38 +54,23 @@ CMAKE_BINARY_DIR = /workspaces/Programacion2/build
 
 # The main recursive "all" target.
 all: CMakeFiles/AppLucas.dir/all
-all: custom-libs/all
+all: custom-libs/mates/all
+all: imgui/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: custom-libs/preinstall
+preinstall: custom-libs/mates/preinstall
+preinstall: imgui/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/AppLucas.dir/clean
-clean: custom-libs/clean
+clean: custom-libs/mates/clean
+clean: imgui/clean
 
 .PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory custom-libs
-
-# Recursive "all" directory target.
-custom-libs/all: custom-libs/mates/all
-
-.PHONY : custom-libs/all
-
-# Recursive "preinstall" directory target.
-custom-libs/preinstall: custom-libs/mates/preinstall
-
-.PHONY : custom-libs/preinstall
-
-# Recursive "clean" directory target.
-custom-libs/clean: custom-libs/mates/clean
-
-.PHONY : custom-libs/clean
 
 #=============================================================================
 # Directory level rules for directory custom-libs/mates
@@ -106,10 +91,29 @@ custom-libs/mates/clean: custom-libs/mates/CMakeFiles/mates.dir/clean
 .PHONY : custom-libs/mates/clean
 
 #=============================================================================
+# Directory level rules for directory imgui
+
+# Recursive "all" directory target.
+imgui/all: imgui/CMakeFiles/imgui.dir/all
+
+.PHONY : imgui/all
+
+# Recursive "preinstall" directory target.
+imgui/preinstall:
+
+.PHONY : imgui/preinstall
+
+# Recursive "clean" directory target.
+imgui/clean: imgui/CMakeFiles/imgui.dir/clean
+
+.PHONY : imgui/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/AppLucas.dir
 
 # All Build rule for target.
 CMakeFiles/AppLucas.dir/all: custom-libs/mates/CMakeFiles/mates.dir/all
+CMakeFiles/AppLucas.dir/all: imgui/CMakeFiles/imgui.dir/all
 	$(MAKE) -f CMakeFiles/AppLucas.dir/build.make CMakeFiles/AppLucas.dir/depend
 	$(MAKE) -f CMakeFiles/AppLucas.dir/build.make CMakeFiles/AppLucas.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/Programacion2/build/CMakeFiles --progress-num=1,2 "Built target AppLucas"
@@ -117,7 +121,7 @@ CMakeFiles/AppLucas.dir/all: custom-libs/mates/CMakeFiles/mates.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/AppLucas.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Programacion2/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Programacion2/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/AppLucas.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Programacion2/build/CMakeFiles 0
 .PHONY : CMakeFiles/AppLucas.dir/rule
@@ -139,7 +143,7 @@ CMakeFiles/AppLucas.dir/clean:
 custom-libs/mates/CMakeFiles/mates.dir/all:
 	$(MAKE) -f custom-libs/mates/CMakeFiles/mates.dir/build.make custom-libs/mates/CMakeFiles/mates.dir/depend
 	$(MAKE) -f custom-libs/mates/CMakeFiles/mates.dir/build.make custom-libs/mates/CMakeFiles/mates.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/Programacion2/build/CMakeFiles --progress-num=3,4,5 "Built target mates"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/Programacion2/build/CMakeFiles --progress-num=5,6,7 "Built target mates"
 .PHONY : custom-libs/mates/CMakeFiles/mates.dir/all
 
 # Build rule for subdir invocation for target.
@@ -158,6 +162,33 @@ mates: custom-libs/mates/CMakeFiles/mates.dir/rule
 custom-libs/mates/CMakeFiles/mates.dir/clean:
 	$(MAKE) -f custom-libs/mates/CMakeFiles/mates.dir/build.make custom-libs/mates/CMakeFiles/mates.dir/clean
 .PHONY : custom-libs/mates/CMakeFiles/mates.dir/clean
+
+#=============================================================================
+# Target rules for target imgui/CMakeFiles/imgui.dir
+
+# All Build rule for target.
+imgui/CMakeFiles/imgui.dir/all:
+	$(MAKE) -f imgui/CMakeFiles/imgui.dir/build.make imgui/CMakeFiles/imgui.dir/depend
+	$(MAKE) -f imgui/CMakeFiles/imgui.dir/build.make imgui/CMakeFiles/imgui.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/Programacion2/build/CMakeFiles --progress-num=3,4 "Built target imgui"
+.PHONY : imgui/CMakeFiles/imgui.dir/all
+
+# Build rule for subdir invocation for target.
+imgui/CMakeFiles/imgui.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Programacion2/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 imgui/CMakeFiles/imgui.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Programacion2/build/CMakeFiles 0
+.PHONY : imgui/CMakeFiles/imgui.dir/rule
+
+# Convenience name for target.
+imgui: imgui/CMakeFiles/imgui.dir/rule
+
+.PHONY : imgui
+
+# clean rule for target.
+imgui/CMakeFiles/imgui.dir/clean:
+	$(MAKE) -f imgui/CMakeFiles/imgui.dir/build.make imgui/CMakeFiles/imgui.dir/clean
+.PHONY : imgui/CMakeFiles/imgui.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

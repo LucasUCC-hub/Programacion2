@@ -21,7 +21,7 @@ AppLucas_BINARY_DIR:STATIC=/workspaces/Programacion2/build
 AppLucas_SOURCE_DIR:STATIC=/workspaces/Programacion2
 
 //No help, variable specified on the command line.
-Archivo:UNINITIALIZED=main.cpp
+Archivo:UNINITIALIZED=imgui/examples/example_glfw_opengl2/main.cpp
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
@@ -216,6 +216,18 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+
+//Value Computed by CMake
+TuProyecto_BINARY_DIR:STATIC=/workspaces/Programacion2/build
+
+//Value Computed by CMake
+TuProyecto_SOURCE_DIR:STATIC=/workspaces/Programacion2
+
+//Value Computed by CMake
+imgui_BINARY_DIR:STATIC=/workspaces/Programacion2/build/imgui
+
+//Value Computed by CMake
+imgui_SOURCE_DIR:STATIC=/workspaces/Programacion2/imgui
 
 //Value Computed by CMake
 mates_BINARY_DIR:STATIC=/workspaces/Programacion2/build/custom-libs/mates

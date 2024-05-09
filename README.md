@@ -3,7 +3,7 @@ Por Lucas Fabiani
 
 ## Configuracion
 ```bash
-alias test='./test'
+alias test='./test.sh'
 ```
 
 ## Ejecutar el proyecto
@@ -16,6 +16,23 @@ test ./ruta_del_archivo/archivo.cpp
 
 ## Crear librerias o modificarlas
 
-- En /modules crear una carpeta nueva y añadirla a /modules/CMakeLists.txt
-- Configurar el CMakeLists.txt de esa libreria (guiarse de /modules/mates/CMakeLists.txt)
-- Ejecuta el proyecto
+- En **/custom-libs** crear una carpeta nueva y añadirla a **/custom-libs/CMakeLists.txt**
+- Configurar el CMakeLists.txt de esa libreria (guiarse de **/custom-libs/mates/CMakeLists.txt)**
+- Ejecuta el archivo con **test**
+
+## Herramientas
+### Para compilar y ejecutar un archivo .cpp a secas
+Configurar
+```bash
+chmod +x ./gpp.sh
+alias gpp='./gpp.sh'
+```
+Ejecutar un archivo
+```bash
+gpp archivo.cpp
+```
+
+### Comandos de utilidad
+```bash
+tree -I 'build|samples' -L 4 . # imprimir arbol excluyendo carpeta build y con profundidad de 3
+```

@@ -30,8 +30,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.16.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeSystem.cmake"
-  "../custom-libs/CMakeLists.txt"
   "../custom-libs/mates/CMakeLists.txt"
+  "../imgui/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -43,12 +43,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "custom-libs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "custom-libs/mates/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "imgui/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/AppLucas.dir/DependInfo.cmake"
   "custom-libs/mates/CMakeFiles/mates.dir/DependInfo.cmake"
+  "imgui/CMakeFiles/imgui.dir/DependInfo.cmake"
   )

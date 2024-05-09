@@ -1,8 +1,9 @@
 /workspaces/Programacion2/build/CMakeFiles/rebuild_cache.dir
 /workspaces/Programacion2/build/CMakeFiles/edit_cache.dir
 /workspaces/Programacion2/build/CMakeFiles/AppLucas.dir
-/workspaces/Programacion2/build/custom-libs/CMakeFiles/rebuild_cache.dir
-/workspaces/Programacion2/build/custom-libs/CMakeFiles/edit_cache.dir
 /workspaces/Programacion2/build/custom-libs/mates/CMakeFiles/rebuild_cache.dir
 /workspaces/Programacion2/build/custom-libs/mates/CMakeFiles/edit_cache.dir
 /workspaces/Programacion2/build/custom-libs/mates/CMakeFiles/mates.dir
+/workspaces/Programacion2/build/imgui/CMakeFiles/rebuild_cache.dir
+/workspaces/Programacion2/build/imgui/CMakeFiles/edit_cache.dir
+/workspaces/Programacion2/build/imgui/CMakeFiles/imgui.dir

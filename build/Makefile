@@ -136,32 +136,45 @@ mates/fast:
 	$(MAKE) -f custom-libs/mates/CMakeFiles/mates.dir/build.make custom-libs/mates/CMakeFiles/mates.dir/build
 .PHONY : mates/fast
 
-main.o: main.cpp.o
+#=============================================================================
+# Target rules for targets named imgui
 
-.PHONY : main.o
+# Build rule for target.
+imgui: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 imgui
+.PHONY : imgui
+
+# fast build rule for target.
+imgui/fast:
+	$(MAKE) -f imgui/CMakeFiles/imgui.dir/build.make imgui/CMakeFiles/imgui.dir/build
+.PHONY : imgui/fast
+
+imgui/examples/example_glfw_opengl2/main.o: imgui/examples/example_glfw_opengl2/main.cpp.o
+
+.PHONY : imgui/examples/example_glfw_opengl2/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/AppLucas.dir/build.make CMakeFiles/AppLucas.dir/main.cpp.o
-.PHONY : main.cpp.o
+imgui/examples/example_glfw_opengl2/main.cpp.o:
+	$(MAKE) -f CMakeFiles/AppLucas.dir/build.make CMakeFiles/AppLucas.dir/imgui/examples/example_glfw_opengl2/main.cpp.o
+.PHONY : imgui/examples/example_glfw_opengl2/main.cpp.o
 
-main.i: main.cpp.i
+imgui/examples/example_glfw_opengl2/main.i: imgui/examples/example_glfw_opengl2/main.cpp.i
 
-.PHONY : main.i
+.PHONY : imgui/examples/example_glfw_opengl2/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/AppLucas.dir/build.make CMakeFiles/AppLucas.dir/main.cpp.i
-.PHONY : main.cpp.i
+imgui/examples/example_glfw_opengl2/main.cpp.i:
+	$(MAKE) -f CMakeFiles/AppLucas.dir/build.make CMakeFiles/AppLucas.dir/imgui/examples/example_glfw_opengl2/main.cpp.i
+.PHONY : imgui/examples/example_glfw_opengl2/main.cpp.i
 
-main.s: main.cpp.s
+imgui/examples/example_glfw_opengl2/main.s: imgui/examples/example_glfw_opengl2/main.cpp.s
 
-.PHONY : main.s
+.PHONY : imgui/examples/example_glfw_opengl2/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/AppLucas.dir/build.make CMakeFiles/AppLucas.dir/main.cpp.s
-.PHONY : main.cpp.s
+imgui/examples/example_glfw_opengl2/main.cpp.s:
+	$(MAKE) -f CMakeFiles/AppLucas.dir/build.make CMakeFiles/AppLucas.dir/imgui/examples/example_glfw_opengl2/main.cpp.s
+.PHONY : imgui/examples/example_glfw_opengl2/main.cpp.s
 
 # Help Target
 help:
@@ -173,9 +186,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... AppLucas"
 	@echo "... mates"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... imgui"
+	@echo "... imgui/examples/example_glfw_opengl2/main.o"
+	@echo "... imgui/examples/example_glfw_opengl2/main.i"
+	@echo "... imgui/examples/example_glfw_opengl2/main.s"
 .PHONY : help
 
 
